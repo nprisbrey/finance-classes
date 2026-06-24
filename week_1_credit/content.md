@@ -1,0 +1,81 @@
+# Credit
+
+- Common examples:
+    - Car loans
+    - Mortgages
+    - Personal loans
+    - Lines of credit: Loan from a bank or other financial institution that makes a certain amount of credit available to the borrower for them to draw on as needed, rather than taking all at once.
+        - Home Equity Line of Credit (HELOC): Borrow against the value of a home for renovations or other purposes.
+- Credit Scores (FICO)
+- Credit Rating Agencies (Moody's, S&P)
+- Companies, governments, and other institutions have letter-grade credit scores, affecting interest rates companies must offer to borrow (a focus of bond investors)
+- Types of credit scores: FICO Score and VantageScore.
+- FICO Credit score (300 - 850): 300 - 579 = poor, 580 - 669 = fair, 670 - 739 = good, 740 - 800 = very good, 800+ = exceptional.
+    - "base" FICO Scores for lenders in multiple industries.
+    - industry-specific credit scores for credit card issuers and auto lenders (250 - 900 range), though middle categories still the same groupings and 670 - 739 still "good".
+    - Use [FICO Score 8 Ranges by Population](https://www.experian.com/blogs/ask-experian/wp-content/uploads/credit-score-ranges-fico-graphic-1400x1124.webp) graphic.
+- VantageScore 3.0/4.0 (300 - 850): 300 - 600 = Subprime, 601 - 660 = Near Prime, 661 - 780 = Prime, 781 - 850 = Super Prime.
+    - Use [VantageScore 3 Ranges by Population](https://www.experian.com/blogs/ask-experian/wp-content/uploads/credit-score-ranges-vantage-graphic-1400x1132.webp) graphic.
+- [Short about buying a car with different levels of credit](https://youtube.com/shorts/C1mRoecYQfw)
+- Credit score affected by:
+    - Payment history: Pay on-time, avoid missing payments or filing bankruptcy.
+    - Credit usage: How many accounts have balances, how much you owe/credit utilization rate.
+    - Credit history length: Average age of credit accounts + age of oldest and newest accounts.
+    - Credit mix: Considers whether you're managing both installment accounts (e.g. car loans, mortgage) and revolving accounts (e.g. credit lines).
+    - Recent credit applications: If you've recently applied for or opened new accounts.
+- A Credit Limit represents the maximum amount of credit a lender (such as a credit card company) will extend (such as to a credit card holder).
+- Buy now, pay later loans.
+- Revolving credit: Loan with no fixed end date, borrow up to limit and account replenished when payment made.
+    - Example: Credit card.
+    - Counter Example: mortgages and car loans (come to an end on a certain date).
+- Credit history used by lenders, employers, insurace companies, and landlords.
+- Credit bureaus: Experian, Equifax, and TransUnion.
+- Don't close old accounts, even if you had debt on them and paid them off; length of credit history factors into credit score. If you have an annual fee you can no longer pay, talk to the credit card issuer about downgrading the accountn to a card with no annual fee.
+- When paying off debt, look at the "debt snowball method" (quick wins first) or the "debt avalanche method" (target highest-interest debt first, save more money in the end).
+- Goal of credit score: the likelihood that a person will become 90 days past due on a bill within the next 24 months.
+- For FICO Scores, you need:
+    - An account at least 6 months old
+    - An account that's been active in the past 6 months
+- For VantageScore, you need:
+    - One active account at least one month old.
+- Credit scores source information from the three credit bureau (and more recently trend data) to create your score.
+- If taking out loans (like student loans), target loans without hard inquiry (like most federal loans). Consistently making loan payments on time will have a positive effect on your credit score.
+- Getting married doesn't inherently affect your credit score until you combine finances in some way. Joint accounts and/or jointly owning property means bad practice from either of you (stop making payments, etc.) will affect both's credit scores, even if they don't tell you.
+- If divorced, CAREFUL with your assets still jointly shared with your spouse!!!!
+- Credit Bureaus use public information (like bankruptcy) and receive information voluntarily from "data furnishers": banks, credit unions, credit card issuers, martgage lenders, loan servicers, collection agencies. Because this is voluntary, sometimes information may be reported to some bureaus but not others. Creditors, employers, landlords, and others then pay to get a report about you.
+- Joint credit is any type of debt that is owned -- and owed -- by two or more people. Joint loans, credit cards, mortgages, car loans, and other joint accounts cause the transaction information to be reported to the credit bureaus multiple times -- once for each name on the account.
+- Authorized Users are different than joint accounts, meaning one person's on the hook for the account and the authorized users can use the account but have no legal liability.
+- Co-borrowers assume all responsibility for the debt and have access to it. Co-signers are 100% responsible for the debt but don't have access to the credit.
+- When applying for a joint account, some mortgage or other lenders may take the lowest middle credit score between both of you. That means they check scores from all three major credit bureaus and compare your middle score to your spouse’s, then use the lower one.
+- If shopping around for a good rate on a loan, car, mortgage, etc., do so all in a 14-day period. FICO and VantageScore treat all hard inquiries in a 14-day period as a single hard inquiry.
+
+## Business Credit Score/Comercial Credit Score
+- Three major business credit bureaus: Equifax, Experian, and Dun & Bradstreet.
+- Credit scores range from 0 to 100.
+- Negative data impacts scores up to 9 years and 9 months.
+- Loan eligibility based off of: revenue, profits, assets and liabilities, collateral value of equipment company plans to buy, and credit score.
+- If working with another company that has a bad credit score, invoices will tend to be required to pay in advance or discontinue agreements together.
+- Increase business credit score:
+    - Pay bills on time
+    - Maintain a healthy credit utilization ratio: 30+% is too high, 20% better goal.
+    - Do business with entities that report trades and payments to credit bureaus.
+- How to start business credit score for a new business:
+    - Incorporate or form a limited liability company (LLC) to ensure your company is seen as a separate business entity.
+    - Obtain a federal employer identification number (EIN).
+    - Open business bank accounts in your legal business name.
+    - Set up a dedicated business phone line in your business’ name and make sure it’s listed.
+- Standard & Poor's (S&P), Moody's, and Fitch are the three most significant rating agencies in the world, rating countries and private enterprises.
+- AAA or Aaa are highest ratings from agencies. Note difference between long-term and short-term ratings.
+
+## References
+- [Credit: What It Is and How It Works](https://www.investopedia.com/terms/c/credit.asp)
+- [What Is a Good Credit Score?](https://www.experian.com/blogs/ask-experian/credit-education/score-basics/what-is-a-good-credit-score/)
+- [How to Build Credit to Buy a House](https://www.experian.com/blogs/ask-experian/how-to-get-your-credit-ready-for-a-mortgage/)
+- [Life Events That Impact Your Credit Score](https://sachetta.com/blog/life-events-that-impact-your-credit-score)
+- [What Are Credit Bureaus and How Do They Work?](https://www.experian.com/blogs/ask-experian/what-is-a-credit-bureau/)
+- [Do join credit cards affect both credit scores?](https://www.chase.com/personal/credit-cards/education/build-credit/do-joint-credit-cards-affect-both-credit-scores)
+- [Joint Credit Explained: Types, Benefits, and How It Works](https://www.investopedia.com/terms/j/joint_credit.asp)
+- [Myths vs. Facts: Marriage and Credit](https://www.equifax.com/personal/education/life-stages/articles/-/learn/myths-vs-facts-marriage-and-credit/)
+- [How Many Hard Inquiries Is Too Many?](https://www.experian.com/blogs/ask-experian/how-many-hard-inquiries-is-too-many/)
+- [Business Credit Scores: What They Are, How They Work, and Improvement Tips](https://www.investopedia.com/terms/b/business-credit-score.asp)
+- [What do S&P, Fitch and Moody's Ratings Mean?](https://www.moneyland.ch/en/rating-agencies)

@@ -20,8 +20,13 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - Car loans
     - Mortgages
     - Personal loans
-    - **Lines of credit** — a lender makes a set amount of credit available to draw on as needed, rather than taking it all at once.
-        - **HELOC (Home Equity Line of Credit)** — borrow against the value of a home for renovations or other purposes.
+    - **Lines of credit** — a lender makes a set amount of credit available to draw on as needed, rather than taking it all at once. Common types:
+        - **HELOC (Home Equity Line of Credit)** — secured against your home equity; used for renovations or other large costs.
+        - **Personal line of credit (PLOC)** — usually unsecured, from a bank/credit union; flexible borrowing for cash-flow gaps.
+        - **Credit card** — the revolving line of credit most people actually hold.
+        - **Overdraft line of credit** — linked to a checking account to cover transactions beyond your balance.
+        - **Business line of credit** — working-capital borrowing for a company.
+        - **Securities-backed line of credit (SBLOC) / margin** — borrow against an investment portfolio pledged as collateral.
     - **Buy now, pay later (BNPL)** loans.
 
 ### Revolving vs. installment credit
@@ -35,15 +40,15 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 - The whole pricing difference flows from **lender risk**: collateral lets the lender recover losses, so secured debt is cheaper. Unsecured debt has no asset to grab, so it carries a higher APR and the lender's only recourse is collections and the courts.
 - **Secured examples:**
     - **Mortgage** — house is collateral; default → **foreclosure**. 30-yr fixed averaged **6.47%** (15-yr **5.81%**) as of 06/18/2026. ([Freddie Mac PMMS](https://www.freddiemac.com/pmms))
-    - **Auto loan** — car is collateral; default → **repossession**. Commercial-bank **60-month new-car loan: 7.52%** (Fed G.19, released 06/05/2026). ([Fed G.19](https://www.federalreserve.gov/releases/g19/current/))
+    - **Auto loan** — car is collateral; default → **repossession**. Commercial-bank **60-month new-car loan: 7.52%** (Fed **G.19** — the Federal Reserve's monthly *Consumer Credit* release, the standard source for average U.S. interest rates on cards, auto, and personal loans; data released 06/05/2026). ([Fed G.19](https://www.federalreserve.gov/releases/g19/current/))
     - **HELOC** — second lien against home equity.
     - **Secured credit card** — cash deposit is the collateral (see *Building credit from scratch*).
-    - **Title & pawn loans** — extreme cases: a single-payment **car-title loan averages ~$700 borrowed at ~300% APR**, and **1 in 5** borrowers have the vehicle seized. ([CFPB](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finds-one-five-auto-title-loan-borrowers-have-vehicle-seized-failing-repay-debt/))
+    - **Title & pawn loans** — high-cost loans secured by personal property. A **car-title loan** pledges your vehicle's title as collateral (you keep driving; the lender can repossess on default); a **pawn loan** is secured by an item you physically hand over (jewelry, electronics, instruments) that the shop keeps and resells if you don't repay on time. Extreme cases: a single-payment **car-title loan averages ~$700 borrowed at ~300% APR**, and **1 in 5** borrowers have the vehicle seized. ([CFPB](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finds-one-five-auto-title-loan-borrowers-have-vehicle-seized-failing-repay-debt/))
 - **Unsecured examples:**
     - **Most credit cards** — Fed G.19 average APR **21.00%** across all accounts, **21.52%** on accounts actually carrying interest. ([Fed G.19](https://www.federalreserve.gov/releases/g19/current/))
     - **Personal loans** — commercial-bank **24-month personal loan: 11.40%** (Fed G.19).
-    - **Most student loans, medical debt, and payday loans.** A payday loan of $15 per $100 over 14 days works out to **~400% APR** vs. ~30% on a card. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-an-annual-percentage-rate-apr-and-why-is-it-higher-than-the-interest-rate-for-my-payday-loan-en-1625/))
-- **Worked APR spread:** on a $20,000, 5-year loan, an unsecured **11.40%** personal loan costs **≈ $6,300** in interest (~$439/mo); a secured **7.52%** auto loan on the same terms costs **≈ $4,050** (~$401/mo) — roughly a **$2,300 premium** you pay for *not* posting collateral. (Computed from the Fed G.19 rates above.)
+    - **Most student loans, medical debt, and payday loans.** A **payday loan** is a small, short-term loan due on your next payday (~2 weeks); you authorize a debit or leave a post-dated check for the amount **plus a fee**. A typical **$15 fee per $100** borrowed *sounds* small, but annualized it's brutal: **APR = (15 ÷ 100) × (365 ÷ 14) ≈ 391% (~400%)**, vs. ~20–30% on a card. The short term is exactly what makes the APR explode. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-an-annual-percentage-rate-apr-and-why-is-it-higher-than-the-interest-rate-for-my-payday-loan-en-1625/))
+- **Worked APR spread (student used car):** finance a **$12,000 used car over 5 years**. As a secured **auto loan at 7.52%** → **~$2,440 interest** (~$241/mo); the same amount as an unsecured **personal loan at 11.40%** → **~$3,800 interest** (~$263/mo) — a **~$1,400 premium** for *not* pledging the car as collateral. *(computed from the Fed G.19 rates above)*
 - **Key terms to nail down:**
     - **Lien** — a creditor's legal claim on property until a debt is paid. *Voluntary* liens (mortgage, auto loan) come from borrowing; *involuntary* liens (tax, judgment) are imposed — and while unpaid liens *can* lead to foreclosure, that's **possible but rare** for non-mortgage liens. ([Experian](https://www.experian.com/blogs/ask-experian/what-is-a-lien/))
     - **Repossession** — lender takes the collateral after missed payments; in many states this needs **no warning or court order**, and if the resale price is below the balance you still owe the **deficiency** plus repo fees. Stays on your report **7 years**. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-car-is-repossessed-en-865/))
@@ -66,10 +71,11 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **All accounts: 21.00%** (2026 Q1, up from 20.97% in Q4 2025).
     - **Accounts actually assessed interest: 21.52%** (2026 Q1, down from **22.30%** in Q4 2025).
     - Average APR on a *new* card offer is even higher — **23.79%** as of June 2026. ([LendingTree](https://www.lendingtree.com/credit-cards/study/average-credit-card-interest-rate-in-america/))
-- **The minimum-payment trap — worked example.** Take the average balance per borrower, **$6,715** (TransUnion, Q4 2025), at a **22.30% APR**, paying the typical minimum of **1% of balance + that month's interest** (≈$35 floor). ([balance](https://www.fool.com/money/research/credit-card-debt-statistics/) · [min = 1% + interest](https://www.citi.com/credit-cards/understanding-credit-cards/how-do-credit-card-minimum-payments-work))
-    - **First payment ≈ $192**, of which **~$125 is pure interest** and only **~$67 touches principal.** *(computed)*
-    - Result: **~227 months ≈ 18.9 years** to pay off, and **~$11,000 in interest** — more than the original balance, for a total of **~$17,700.** *(computed)*
-    - Flip side: pay a **fixed $250/month** and it's gone in **~38 months (~3.2 years)** with only **~$2,700 interest** — the minimum is the most expensive way to repay. *(computed)*
+- **The minimum-payment trap — student example.** Say a semester of textbooks and groceries leaves you carrying **$1,500 at a 24% APR** (typical for a student card), paying the usual minimum of **1% of balance + that month's interest** (≈$35 floor). ([min = 1% + interest](https://www.citi.com/credit-cards/understanding-credit-cards/how-do-credit-card-minimum-payments-work))
+    - **First payment ≈ $45**, of which **~$30 is pure interest** and only **~$15 touches principal.** *(computed)*
+    - Result: **~6.7 years** to pay off and **~$1,400 in interest** — nearly doubling what you borrowed (total ~$2,940). *(computed)*
+    - Flip side: pay a **fixed $100/month** and it's gone in **~18 months** with only **~$300 interest.** The minimum is the most expensive way to repay. *(computed)*
+    - National scale, for contrast: the average balance *per borrower* is **$6,715** (TransUnion, Q4 2025) — same trap, ~4× the damage. ([balance](https://www.fool.com/money/research/credit-card-debt-statistics/))
 - **0% intro APR vs. deferred interest — not the same thing.**
     - **True 0% intro APR** — "0% intro APR on purchases/transfers for N months." Interest is genuinely $0 during the promo; when it ends you owe the regular APR only on the **remaining** balance, never retroactively.
     - **Deferred interest** ("**No interest if paid in full** within N months," common on store cards) — interest accrues from day one and is *waived only if* you clear the full balance in time. Miss it (or go 60+ days late) and you're charged **all the back interest to the original purchase date.** ([CFPB](https://www.consumerfinance.gov/ask-cfpb/i-got-a-credit-card-promising-no-interest-for-a-purchase-if-i-pay-in-full-within-12-months-how-does-this-work-en-40/))
@@ -104,7 +110,7 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **FICO 9 (debuted 2014)** is also widely used: it **ignores paid collections**, weighs **unpaid medical collections** less, and can factor **rent payment** history when reported. ([Experian](https://www.experian.com/blogs/ask-experian/what-is-fico-score-9/))
 - **What lenders actually use is older than the newest model.** **FICO 8 (released 2009) is still the most widely used version** for most non-mortgage lending.
     - **Mortgages still run on "classic" FICO models by bureau:** **FICO 2 (Experian)**, **FICO 5 (Equifax)**, **FICO 4 (TransUnion)**.
-    - **Modernization is phased, not done.** FHFA **validated and approved FICO 10T and VantageScore 4.0 (Oct. 24, 2022)** for Fannie/Freddie loans. As of 2025–26 the rollout is staged: **VantageScore 4.0 is now an allowed option (not required)** alongside classic FICO, while **FICO 10T is not yet in mortgage use** — its broader adoption awaits FHFA's **Summer 2026** publication of historical scores. ([FHFA](https://www.fhfa.gov/policy/credit-scores))
+    - **Modernization is phased, not done.** The **FHFA (Federal Housing Finance Agency)** — the regulator of **Fannie Mae** and **Freddie Mac**, the government-sponsored enterprises that buy most U.S. mortgages from lenders, bundle them into securities, and set the "conforming loan" rules most mortgages follow — **validated and approved FICO 10T and VantageScore 4.0 (Oct. 24, 2022)** for Fannie/Freddie loans. As of 2025–26 the rollout is staged: **VantageScore 4.0 is now an allowed option (not required)** alongside classic FICO, while **FICO 10T is not yet in mortgage use** — its broader adoption awaits FHFA's **Summer 2026** publication of historical scores. ([FHFA](https://www.fhfa.gov/policy/credit-scores))
 
 ### VantageScore factors by weight
 - **Newest model = VantageScore 5.0**, launched **April 17, 2025** — a tri-bureau model optimized for **unsecured lending** that adds **up to ~9% predictive lift over VantageScore 3.0** for thin-file consumers. VantageScore **hasn't published a public factor-weight breakdown for 5.0**, so use **4.0's** weights as the teaching example (still "the most used model in the marketplace"). ([VantageScore](https://vantagescore.com/resources/knowledge-center/vantagescore-launches-new-industry-leading-5-0-credit-score-model))
@@ -148,6 +154,7 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 ### Inquiries & rate shopping
 - When shopping for a rate on a loan, car, or mortgage, do it within a **14-day window** — VantageScore and older FICO models treat all hard inquiries in that window as a **single** inquiry. (FICO 8 and newer use a **45-day** window for auto/mortgage/student-loan rate shopping.)
 - Distinguish **soft inquiries** (checking your own score, prequalification, employer/insurer checks — **no score impact**) from **hard inquiries** (a lender pulling your file for a credit application — a small, temporary hit).
+- **Why a lender ever uses a hard pull when a soft one exists** — a soft pull (prequalification, prescreened offers) shows only a limited view and is **not a formal application**, so it can power a *conditional* offer but can't actually fund a loan. The hard inquiry you authorize when you really apply buys the lender three things a soft pull can't: (1) your **full, current credit report** for a binding underwriting decision; (2) a documented **permissible purpose and your consent** under the FCRA to evaluate you for that specific credit; and (3) the inquiry is **recorded and visible to other lenders**, flagging that you're taking on new credit — which helps prevent "loan stacking" (quietly applying for several loans at once). That visibility is itself information, and the reason a flurry of hard inquiries dings your score.
 - If taking out loans (e.g. student loans), favor loans without a hard inquiry (most federal loans). Consistent on-time payments help your score.
 
 ### Debt-to-income ratio (DTI)
@@ -156,10 +163,11 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 - **Two ratios lenders run** ([Bankrate](https://www.bankrate.com/mortgages/why-debt-to-income-matters-in-mortgages/)):
     - **Front-end (housing) ratio** — proposed housing payment ÷ gross income. Housing = **PITI + HOA + mortgage insurance** (principal, interest, taxes, insurance).
     - **Back-end (total) ratio** — *all* monthly debt ÷ gross income. This is the number that usually governs approval.
-- **Worked example** — gross **$6,000/mo**, housing **$1,800**, other debt **$850/mo**:
-    - Front-end = $1,800 ÷ $6,000 = **30%**
-    - Back-end = $2,650 ÷ $6,000 = **44%**
-    - Same borrower looks fine on housing (30%) but tight overall (44%) — why the back-end ratio is the binding constraint.
+- **Worked example (a student applying for a used-car loan)** — gross income **$1,300/mo** (part-time + work-study), rent **$550**, the proposed **car payment $240**, credit-card minimum **$45**:
+    - Housing share = $550 ÷ $1,300 = **42%**
+    - Back-end (all debt) = ($550 + $240 + $45) ÷ $1,300 = **64%**
+    - At 64% the borrower is way past most lenders' ~43–50% ceiling — exactly why students so often need a **co-signer**. Note the lender counts your **rent** here even though you don't own. *(computed)*
+- **Forward look — your deferred student loans hit DTI the day you graduate.** Tuition at **$3,500/semester** = **$7,000/year**, or **~$28,000** across a 4-year degree if federally financed. Those loans sit quietly in deferment while you're enrolled, then become a **~$315/month** back-end line on a standard 10-year term (2025–26 undergrad rate **6.39%**) — often the very line that pushes a new grad's DTI over a mortgage lender's limit. ([Federal Student Aid](https://studentaid.gov/understand-aid/types/loans/interest-rates))
 - **The 28/36 rule** — classic benchmark: **≤28%** of gross income to the mortgage, **≤36%** to total debt; most lenders prefer back-end **≤36%** for the best pricing. ([myFICO](https://www.myfico.com/credit-education/blog/why-is-DTI-important))
 - **Thresholds by loan program (2025–2026):**
     - **Conventional / Fannie Mae:** automated underwriting allows DTI up to **50%**; manual benchmarks at **36%**, stretchable to **45%** with stronger score + reserves. ([Fannie Mae B3-6-02](https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios))
@@ -198,9 +206,10 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 - **Credit-builder loans — payments first, money later.** The lender locks **$300–$1,000** in a savings account; you make installments over **6–24 months**, the payments report as a tradeline, and you receive the principal at the end. Median origination **~$724**, payment ~$35. ([Fed, Dec 2024](https://www.federalreserve.gov/econres/notes/feds-notes/an-overview-of-credit-building-products-20241206.html))
     - **Who benefits:** CFPB found CBLs work best for people with **no existing debt** — raising the likelihood of having a score by **~24%** and producing **~60-point** gains vs. peers. For those already carrying debt, a CBL can *hurt* by straining cash flow.
 - **Rent & utility reporting — make existing bills count.**
-    - **Experian Boost (free)** — links your bank to add utility, telecom, streaming, insurance, and rent payments to your **Experian** file. Average **+14 points to FICO Score 8**; needs ≥3 eligible payments in 6 months; only positive history. ([Experian](https://www.experian.com/blogs/ask-experian/what-is-experian-boost/))
-    - **Rent-reporting services** (Boom, RentReporters, Self, etc.) — most report to all three bureaus. A TransUnion study found **>75% of renters who reported rent saw gains, averaging ~60 points.**
-    - **Model caveat:** rent/alt-data only count in **newer models** — **FICO 9, 10, 10T** (rental data since 2014) and **VantageScore 3.0/4.0**. The still-dominant **FICO 8** and the mortgage scores (5, 4, 2) **ignore rent**. ([myFICO](https://www.myfico.com/credit-education/blog/add-rent-credit-reports))
+    - **MyCreditLift (likely relevant to this group)** — a rent-reporting service many apartment complexes offer through their resident portal; you opt in and your **on-time rent is reported to all three bureaus** (Equifax, Experian, TransUnion). ([MyCreditLift](https://www.mycreditlift.com/))
+        - **What it will and won't move:** the reported rent counts in **FICO 9 & 10 and VantageScore 3 & 4**, so those scores should rise — but the still-dominant **FICO 8** and the **mortgage FICO scores (2/4/5) ignore it**. So the same **$550** on-time rent that lifts your VantageScore can be **invisible to a mortgage underwriter**. Know which score a given lender pulls.
+    - **Experian Boost (free)** — a special case: it links your bank to add utility, telecom, streaming, insurance, and rent payments **directly to your Experian file**, and *does* move Experian's **FICO 8** (avg **+14 points**). Needs ≥3 eligible payments in 6 months; only positive history. ([Experian](https://www.experian.com/blogs/ask-experian/what-is-experian-boost/))
+    - **Other rent-reporting services** (Boom, RentReporters, Self, etc.) — most report to all three bureaus; a TransUnion study found **>75% of renters who reported rent saw gains, averaging ~60 points** — but, like MyCreditLift, only in the newer score models above (FICO 9/10/10T, VantageScore 3/4; rental data has counted since 2014). ([myFICO](https://www.myfico.com/credit-education/blog/add-rent-credit-reports))
 - **Federal student loans — a free installment tradeline.** Servicers report monthly, and the account appears on your report while you're in school / in deferment, building history and credit mix before repayment — without a hard inquiry to originate. Caution: with collections resumed in 2025, **default does report** and damages your file. ([Federal Student Aid](https://studentaid.gov/manage-loans/lower-payments/get-temporary-relief/deferment))
 - **The graduation path (secured → unsecured):** start with a student card if eligible, else a reporting secured card; keep **utilization under ~30%** (ideally <10%) and **pay on time**; after **~6–18 months** many issuers upgrade you to unsecured and refund the deposit; **don't close** your first card — its age anchors your average account age.
 
@@ -306,7 +315,8 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 **Building credit**
 - Federal Reserve — Overview of Credit-Building Products (Dec 2024): https://www.federalreserve.gov/econres/notes/feds-notes/an-overview-of-credit-building-products-20241206.html
 - CFPB — start/rebuild credit (en-2155) & credit-builder-loan research
-- Discover / Capital One student cards; Experian Boost & piggybacking; myFICO rent reporting; Federal Student Aid (deferment)
+- Discover / Capital One student cards; Experian Boost & piggybacking; myFICO rent reporting; Federal Student Aid (deferment & [loan rates](https://studentaid.gov/understand-aid/types/loans/interest-rates))
+- MyCreditLift (rent reporting via apartment complexes): https://www.mycreditlift.com/
 
 **Bond / institutional ratings**
 - Fidelity bond-ratings table; S&P 2024 default study (via investmentgrade.com); FRED ICE BofA OAS series

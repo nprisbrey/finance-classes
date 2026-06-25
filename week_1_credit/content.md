@@ -11,9 +11,23 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 
 ## Lesson (40 min)
 
-> Deep reference — more than fits in 40 minutes. Treat the **scores / factors / reports / building-credit** sections as the core teach; **bond ratings** and parts of **interest & DTI** are an optional deep dive or a second session. Every figure below was researched against primary sources and independently fact-checked (June 2026).
+**Pick your path.** The lesson is built as **7 self-contained modules**. The **default is to run them in order** — each builds on the last into a coherent flow — but at the start the group can vote to skip, reorder, or zoom in on whichever modules matter most. The rough times below **sum past 40 minutes on purpose**, so choose; we won't cover everything in one sitting.
 
-### What credit is
+1. **M1 · Credit 101 — what credit is & its types** (~6 min)
+2. **M2 · The cost of credit — interest & APR** (~7 min)
+3. **M3 · Credit scores & what moves them** (~8 min)
+4. **M4 · Your report, inquiries & your rights** (~5 min)
+5. **M5 · Building credit from scratch** (~7 min) — *most actionable for students*
+6. **M6 · Borrowing with others & qualifying for loans** (~5 min)
+7. **M7 · Credit beyond you — business & bond ratings** (~8 min) — *optional deep dive*
+
+> Every figure below was researched against primary sources and independently fact-checked (June 2026).
+
+---
+
+### M1 · Credit 101 — what credit is & its types  ·  ~6 min
+
+#### What credit is
 - Credit = access to money or goods now in exchange for a promise to repay later, almost always with interest.
 - Two broad worlds: **consumer credit** (individuals) and **business / institutional credit** (companies, governments).
 - Common consumer examples:
@@ -29,20 +43,20 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
         - **Securities-backed lending** — borrow against a pledged investment portfolio. Two distinct flavors: a **margin loan** is broker credit that *can* be used to buy more securities; an **SBLOC** is a *non-purpose* loan that **can't** buy securities and funds outside needs (real estate, business, taxes).
     - **Buy now, pay later (BNPL)** loans.
 
-### Revolving vs. installment credit
+#### Revolving vs. installment credit
 - **Revolving credit** — no fixed end date; borrow up to a limit, and available credit replenishes as you pay it down.
     - Example: credit card.
     - Counter-example: mortgages and car loans — **installment** loans that end on a set date.
 - A **credit limit** is the maximum amount of credit a lender (e.g. a credit card company) will extend to a borrower.
 
-### Secured vs. unsecured credit
+#### Secured vs. unsecured credit
 - **Secured credit** — a loan or line backed by **collateral** (an asset the lender can seize on default). **Unsecured credit** — no collateral; the lender relies only on your promise to repay and your credit history. ([CFPB](https://files.consumerfinance.gov/f/documents/cfpb_building_block_activities_differentiating-secured-unsecured-loans_guide.pdf))
 - The whole pricing difference flows from **lender risk**: collateral lets the lender recover losses, so secured debt is cheaper. Unsecured debt has no asset to grab, so it carries a higher APR and the lender's only recourse is collections and the courts.
 - **Secured examples:**
     - **Mortgage** — house is collateral; default → **foreclosure**. 30-yr fixed averaged **6.47%** (15-yr **5.81%**) as of 06/18/2026. ([Freddie Mac PMMS](https://www.freddiemac.com/pmms))
     - **Auto loan** — car is collateral; default → **repossession**. Commercial-bank **60-month new-car loan: 7.52%** (Fed **G.19** — the Federal Reserve's monthly *Consumer Credit* release, the standard source for average U.S. interest rates on cards, auto, and personal loans; data released 06/05/2026). ([Fed G.19](https://www.federalreserve.gov/releases/g19/current/))
     - **HELOC** — second lien against home equity.
-    - **Secured credit card** — cash deposit is the collateral (see *Building credit from scratch*).
+    - **Secured credit card** — a refundable cash deposit is the collateral and becomes your credit line (the standard "starter" card — covered in **M5**).
     - **Title & pawn loans** — high-cost loans secured by personal property. A **car-title loan** pledges your vehicle's title as collateral (you keep driving; the lender can repossess on default); a **pawn loan** is secured by an item you physically hand over (jewelry, electronics, instruments) that the shop keeps and resells if you don't repay on time. Extreme cases: a single-payment **car-title loan averages ~$700 borrowed at ~300% APR**, and **1 in 5** borrowers have the vehicle seized. ([CFPB](https://www.consumerfinance.gov/about-us/newsroom/cfpb-finds-one-five-auto-title-loan-borrowers-have-vehicle-seized-failing-repay-debt/))
 - **Unsecured examples:**
     - **Most credit cards** — Fed G.19 average APR **21.00%** across all accounts, **21.52%** on accounts actually carrying interest. ([Fed G.19](https://www.federalreserve.gov/releases/g19/current/))
@@ -54,7 +68,11 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **Repossession** — lender takes the collateral after missed payments; in many states this needs **no warning or court order**, and if the resale price is below the balance you still owe the **deficiency** plus repo fees. Stays on your report **7 years**. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-happens-if-my-car-is-repossessed-en-865/))
     - **Charge-off** — after **~120–180 days (≈6 missed payments)** the creditor writes the debt off as a loss for accounting, but **you still owe it** — it gets sold to collections and sits on your report **7 years**. ([Experian](https://www.experian.com/blogs/ask-experian/what-is-a-charge-off/))
 
-### Interest & APR
+---
+
+### M2 · The cost of credit — interest & APR  ·  ~7 min
+
+#### Interest & APR
 - **APR (Annual Percentage Rate)** — the yearly price of borrowing, disclosed as required by Reg Z. For credit cards the APR is a *nominal* rate; the **periodic rate** is what actually gets applied each cycle. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-a-credit-card-interest-rate-what-does-apr-mean-en-44/))
     - **Daily periodic rate (DPR)** — APR ÷ 365 (some issuers use 360). At a 21.52% APR the DPR is **0.05896%/day**. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-a-daily-periodic-rate-on-a-credit-card-en-46/))
 - **APR vs. APY** — a card's APR is a *nominal* yearly rate (12× the monthly, or 365× the daily, periodic rate); it does **not** reflect compounding. **APY** does. Because card interest **compounds daily**, the *effective* annual rate you actually pay is somewhat higher than the stated APR. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-a-daily-periodic-rate-on-a-credit-card-en-46/))
@@ -81,7 +99,11 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **Deferred interest** ("**No interest if paid in full** within N months," common on store cards) — interest accrues from day one and is *waived only if* you clear the full balance in time. Miss it (or go 60+ days late) and you're charged **all the back interest to the original purchase date.** ([CFPB](https://www.consumerfinance.gov/ask-cfpb/i-got-a-credit-card-promising-no-interest-for-a-purchase-if-i-pay-in-full-within-12-months-how-does-this-work-en-40/))
     - **Balance transfers** — move debt to a 0% intro card, but pay a **balance-transfer fee (often 3–5%)** up front; the 0% applies to transfers only, and any leftover balance flips to the standard APR when the promo ends.
 
-### Credit scores: FICO & VantageScore
+---
+
+### M3 · Credit scores & what moves them  ·  ~8 min
+
+#### Credit scores: FICO & VantageScore
 - The two main consumer scores are the **FICO Score** and **VantageScore**.
 - What a score is really predicting: the **likelihood a person becomes 90 days past due on a bill within the next 24 months.**
 - **FICO (300–850):** 300–579 poor · 580–669 fair · 670–739 good · 740–799 very good · 800+ exceptional.
@@ -95,7 +117,7 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **VantageScore:** one active account at least one month old.
 - Why it matters in dollars: [Buying a car with different levels of credit](https://youtube.com/shorts/C1mRoecYQfw)
 
-### What moves your FICO score — by weight
+#### What moves your FICO score — by weight
 - The FICO Score breaks into **five categories**, with these approximate weights for the general population ([myFICO](https://www.myfico.com/credit-education/whats-in-your-credit-score)):
     - **Payment history ~35%** — whether you've paid past accounts on time; the single largest factor.
     - **Amounts owed (utilization) ~30%** — dominated by **credit utilization**, the ratio of revolving balances to limits.
@@ -112,7 +134,7 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **Mortgages still run on "classic" FICO models by bureau:** **FICO 2 (Experian)**, **FICO 5 (Equifax)**, **FICO 4 (TransUnion)**.
     - **Modernization is phased, not done.** The **FHFA (Federal Housing Finance Agency)** — the regulator/conservator of **Fannie Mae** and **Freddie Mac**, the government-sponsored enterprises (GSEs) that buy a large share of U.S. mortgages (~70% of the outstanding market) and bundle them into securities. FHFA sets the annual **conforming-loan limit**; the GSEs set the **underwriting standards** a loan must meet to be bought. FHFA **validated and approved FICO 10T and VantageScore 4.0 (Oct. 24, 2022)** for Fannie/Freddie loans. As of 2025–26 the rollout is staged: **VantageScore 4.0 is now an allowed option (not required)** alongside classic FICO, while **FICO 10T is not yet in mortgage use** — its broader adoption awaits FHFA's **Summer 2026** publication of historical scores. ([FHFA](https://www.fhfa.gov/policy/credit-scores))
 
-### VantageScore factors by weight
+#### VantageScore factors by weight
 - **Newest model = VantageScore 5.0**, launched **April 17, 2025** — a tri-bureau model optimized for **unsecured lending** that adds **up to ~9% predictive lift over VantageScore 3.0** for thin-file consumers. VantageScore **hasn't published a public factor-weight breakdown for 5.0**, so use **4.0's** weights as the teaching example (still "the most used model in the marketplace"). ([VantageScore](https://vantagescore.com/resources/knowledge-center/vantagescore-launches-new-industry-leading-5-0-credit-score-model))
     - **VantageScore 4plus** (announced May 15, 2024) isn't a standalone score — it layers **open-banking data** onto 4.0 for **up to ~10% more lift**, only if the consumer connects a bank account. ([VantageScore](https://vantagescore.com/insights/vantagescore-4-plus))
 - **VantageScore 4.0 weights, by influence tier** ([VantageScore, Complete Guide](https://vantagescore.com/consumers/blog/the-complete-guide-to-your-vantagescore); labels per [VantageScore, How Credit Scores Work](https://vantagescore.com/consumers/how-credit-scores-work)):
@@ -129,7 +151,11 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **Paid collections:** VantageScore **3.0/4.0 ignore paid collections** — pay it off and it stops counting. **FICO 8 still counts paid collections**; only FICO 9/10 ignore them.
     - **Shorter history to be scored:** VantageScore can score someone with **~one month of history** (and folds in rent/utility/telecom data when reported), so 4.0 scores **~33 million more U.S. adults** than conventional models. **FICO requires ≥1 account ≥6 months old AND active in the past 6 months.** ([VantageScore 4.0](https://vantagescore.com/insights/vantagescore-4))
 
-### Credit reports & scores
+---
+
+### M4 · Your report, inquiries & your rights  ·  ~5 min
+
+#### Credit reports & scores
 - **Credit report** — the detailed underlying record; **credit score** — a single number (usually 300–850) calculated *from* that record. The same person has many scores that vary by bureau, scoring model, and loan type. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/whats-the-difference-between-a-credit-report-and-a-credit-score-en-2069/))
     - What's actually *in* the report: **personal/identifying info** (name, addresses, SSN, DOB, employers), **tradelines** (each account, open/close dates, limit/loan amount, balance, and month-by-month **payment history**), **inquiries** (hard + soft), **public records** (bankruptcies), and **collections**.
 - **The three bureaus — Experian, Equifax, TransUnion** — each holds a *separate* report. They build it from **public information** (e.g. bankruptcies) and from **data furnishers** who report **voluntarily**: banks, credit unions, card issuers, mortgage lenders, loan servicers, collection agencies. Because furnishing is voluntary, an account or late mark can show on one bureau and not another — which is why your three scores rarely match. Creditors, employers, landlords, and insurers then **pay** to pull a report about you.
@@ -151,7 +177,7 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **Fraud alert** — free; doesn't block access but requires lenders to **verify your identity** first. Initial alert lasts **1 year**; an **extended alert** for identity-theft victims (with an IdentityTheft.gov report) lasts **7 years**. Contact just **one** bureau — it notifies the others. ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-do-i-do-if-i-think-i-have-been-a-victim-of-identity-theft-en-31/))
     - **Credit lock** — a bureau product governed by the company's terms, not federal law. The CFPB says locks are "no more effective than security freezes, which are free and which you have a right to by law."
 
-### Inquiries & rate shopping
+#### Inquiries & rate shopping
 - When shopping for a rate on a loan, car, or mortgage, do it within a **14-day window** — VantageScore and older FICO models treat all hard inquiries in that window as a **single** inquiry. (FICO 8 and newer use a **45-day** window for auto/mortgage/student-loan rate shopping.)
 - Distinguish **soft inquiries** (checking your own score, prequalification, employer/insurer checks — **no score impact**) from **hard inquiries** (a lender pulling your file for a credit application — a small, temporary hit).
 - **Why a lender ever uses a hard pull when a soft one exists** — the difference *isn't* how much data they see: both hard and soft pulls read the same underlying report, and both require an FCRA **"permissible purpose."** The real line is whether the pull is tied to a **credit application you initiated.**
@@ -159,38 +185,11 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - A **hard pull** happens when you **apply** and the lender pulls your file for an *actual* (not preliminary) credit decision. Applying itself supplies the permissible purpose to evaluate you for *that specific* new credit — no separate written authorization (the kind employment checks require) is needed. The inquiry is **recorded, visible to other lenders, and factored into your score**, which flags that you're taking on new credit and helps prevent "loan stacking" (quietly applying for several loans at once). That visibility is why a flurry of hard inquiries dings your score.
 - If taking out loans (e.g. student loans), favor loans without a hard inquiry (most federal loans). Consistent on-time payments help your score.
 
-### Debt-to-income ratio (DTI)
-- **DTI** — total monthly debt payments divided by **gross** monthly income (before taxes/deductions). CFPB's example: **$2,000 in monthly debts ÷ $6,000 gross = 33%.** ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/))
-    - "Debt" here = recurring obligations a lender sees: mortgage/rent, minimum card payments, auto, student, personal loans. It excludes utilities, groceries, insurance, taxes.
-- **Two ratios lenders run** ([Bankrate](https://www.bankrate.com/mortgages/why-debt-to-income-matters-in-mortgages/)):
-    - **Front-end (housing) ratio** — proposed housing payment ÷ gross income. Housing = **PITI + HOA + mortgage insurance** (principal, interest, taxes, insurance).
-    - **Back-end (total) ratio** — *all* monthly debt ÷ gross income. This is the number that usually governs approval.
-- **Worked example (a student applying for a used-car loan)** — gross income **$1,300/mo** (part-time + work-study), rent **$550**, the proposed **car payment $240**, credit-card minimum **$45**:
-    - Housing share = $550 ÷ $1,300 = **42%**
-    - Back-end (all debt) = ($550 + $240 + $45) ÷ $1,300 = **64%**
-    - At 64% the borrower is way past most lenders' ~43–50% ceiling — exactly why students so often need a **co-signer**. Note the lender counts your **rent** here even though you don't own. *(computed)*
-- **Forward look — your deferred student loans hit DTI the day you graduate.** Tuition at **$3,500/semester** = **$7,000/year**, or **~$28,000** across a 4-year degree if federally financed. Those loans sit quietly in deferment while you're enrolled, then become a **~$315/month** back-end line on a standard 10-year term (2025–26 undergrad rate **6.39%**) — often the very line that pushes a new grad's DTI over a mortgage lender's limit. ([Federal Student Aid](https://studentaid.gov/understand-aid/types/loans/interest-rates))
-- **The 28/36 rule** — classic benchmark: **≤28%** of gross income to the mortgage, **≤36%** to total debt; most lenders prefer back-end **≤36%** for the best pricing. ([myFICO](https://www.myfico.com/credit-education/blog/why-is-DTI-important))
-- **Thresholds by loan program (2025–2026):**
-    - **Conventional / Fannie Mae:** automated underwriting allows DTI up to **50%**; manual benchmarks at **36%**, stretchable to **45%** with stronger score + reserves. ([Fannie Mae B3-6-02](https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios))
-    - **FHA (Handbook 4000.1):** standard caps **31% front / 43% back**; manual-underwriting maximums are **tiered** — 31/43 with no compensating factors, 37/47 with one, **40/50** with two or more (the ~50% is the **back-end** max). FHA files generally must be manually underwritten when the decision score is **<620 AND total DTI >43%.** ([HUD](https://archives.hud.gov/offices/hsg/sfh/ref/sfhp2-12.cfm))
-    - **Rules of thumb across products:** ≤35% comfortable, up to ~**50%** is the practical ceiling at most lenders. ([Experian](https://www.experian.com/blogs/ask-experian/credit-education/debt-to-income-ratio/))
-- **The "43% Qualified Mortgage" number is now historical.** The 2014 QM/Ability-to-Repay rule capped back-end DTI at **43%**. The CFPB's **General QM Final Rule (Dec. 10, 2020)** **removed that cap** and replaced it with a **price-based test**: for a first lien, the loan qualifies if its **APR exceeds the Average Prime Offer Rate (APOR) by less than 2.25 percentage points** (the threshold is *tiered* — up to ~6.5 points for smaller loans, subordinate liens, and certain manufactured housing). ([CFPB](https://www.consumerfinance.gov/rules-policy/final-rules/qualified-mortgage-definition-under-truth-lending-act-regulation-z-general-qm-loan-definition/))
-    - DTI didn't disappear — the **Ability-to-Repay rule still forces lenders to consider** income/assets, current debts, and DTI or residual income among **8 required factors.**
-- **Why DTI is NOT in your credit score** — but is central to underwriting:
-    - Scoring models only read your **credit report**, and **income isn't on the credit report** — so it mathematically *can't* enter the score. myFICO: "Your DTI doesn't directly impact your FICO Score because your income is not considered."
-    - So a 760-FICO borrower can still be **denied a mortgage for DTI** — the score measures *willingness/likelihood* to repay; DTI measures *capacity* to repay. Lenders pull income docs (W-2s, pay stubs) separately to compute it.
+---
 
-### Joint credit, authorized users & co-signers
-- **Joint credit** — debt owned and owed by two or more people. Joint loans, cards, mortgages, etc. report to the bureaus once **per name** on the account.
-- **Authorized users** — can use the account but carry **no legal liability**; one person is on the hook.
-- **Co-borrowers** — assume full responsibility AND have access to the credit.
-- **Co-signers** — 100% responsible for the debt but have **no access** to the credit.
-- On joint applications, some mortgage (and other) lenders use the **lower of the two borrowers' middle scores** — they pull all three bureaus, take each person's middle score, and use the lower one.
-- **Marriage** doesn't itself affect your score — only once you combine finances (joint accounts, jointly owned property). Then either person's bad behavior hits both scores, even without telling the other.
-- **Divorce** — be careful with assets and accounts still jointly held!
+### M5 · Building credit from scratch  ·  ~7 min  ·  *most actionable for students*
 
-### Building credit from scratch
+#### Building credit from scratch
 - **The no-credit catch-22** — lenders want a track record before extending credit, but you can't build one without credit. Per the CFPB's June 2025 corrected figures, **~2.7% of adults (~7 million) were "credit invisible"** (no file at all) as of **December 2020**, with a larger share "unscored" (a file too thin/stale to score). ([CFPB analysis](https://www.consumerfinancialserviceslawmonitor.com/2025/07/insights-from-the-cfpbs-latest-report-on-credit-invisibility/))
     - Scoring minimums to escape "unscored": **FICO** needs an account ≥6 months old AND active in the last 6 months; **VantageScore 4.0** needs just one account ≥1 month old — so VantageScore can score you faster.
 - **Step 0 — pull your file first** at **AnnualCreditReport.com** (free weekly). Confirm whether you're invisible vs. thin before choosing a product.
@@ -215,15 +214,52 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 - **Federal student loans — a free installment tradeline.** Servicers report monthly, and the account appears on your report while you're in school / in deferment, building history and credit mix before repayment — without a hard inquiry to originate. Caution: with collections resumed in 2025, **default does report** and damages your file. ([Federal Student Aid](https://studentaid.gov/manage-loans/lower-payments/get-temporary-relief/deferment))
 - **The graduation path (secured → unsecured):** start with a student card if eligible, else a reporting secured card; keep **utilization under ~30%** (ideally <10%) and **pay on time**; after **~6–18 months** many issuers upgrade you to unsecured and refund the deposit; **don't close** your first card — its age anchors your average account age.
 
-### Managing & paying down debt
+#### Managing & paying down debt
 - **Don't close old accounts**, even ones you've paid off — length of history feeds your score. If an annual fee is the problem, ask the issuer to **downgrade** to a no-fee card instead of closing.
 - Paying off debt — two common strategies:
     - **Debt snowball** — smallest balances first (quick wins / motivation).
     - **Debt avalanche** — highest-interest debt first (saves the most money overall).
 
-### Credit beyond consumers
+---
 
-**Business / commercial credit**
+### M6 · Borrowing with others & qualifying for loans  ·  ~5 min
+
+#### Joint credit, authorized users & co-signers
+- **Joint credit** — debt owned and owed by two or more people. Joint loans, cards, mortgages, etc. report to the bureaus once **per name** on the account.
+- **Authorized users** — can use the account but carry **no legal liability**; one person is on the hook.
+- **Co-borrowers** — assume full responsibility AND have access to the credit.
+- **Co-signers** — 100% responsible for the debt but have **no access** to the credit.
+- On joint applications, some mortgage (and other) lenders use the **lower of the two borrowers' middle scores** — they pull all three bureaus, take each person's middle score, and use the lower one.
+- **Marriage** doesn't itself affect your score — only once you combine finances (joint accounts, jointly owned property). Then either person's bad behavior hits both scores, even without telling the other.
+- **Divorce** — be careful with assets and accounts still jointly held!
+
+#### Debt-to-income ratio (DTI)
+- **DTI** — total monthly debt payments divided by **gross** monthly income (before taxes/deductions). CFPB's example: **$2,000 in monthly debts ÷ $6,000 gross = 33%.** ([CFPB](https://www.consumerfinance.gov/ask-cfpb/what-is-a-debt-to-income-ratio-en-1791/))
+    - "Debt" here = recurring obligations a lender sees: mortgage/rent, minimum card payments, auto, student, personal loans. It excludes utilities, groceries, insurance, taxes.
+- **Two ratios lenders run** ([Bankrate](https://www.bankrate.com/mortgages/why-debt-to-income-matters-in-mortgages/)):
+    - **Front-end (housing) ratio** — proposed housing payment ÷ gross income. Housing = **PITI + HOA + mortgage insurance** (principal, interest, taxes, insurance).
+    - **Back-end (total) ratio** — *all* monthly debt ÷ gross income. This is the number that usually governs approval.
+- **Worked example (a student applying for a used-car loan)** — gross income **$1,300/mo** (part-time + work-study), rent **$550**, the proposed **car payment $240**, credit-card minimum **$45**:
+    - Housing share = $550 ÷ $1,300 = **42%**
+    - Back-end (all debt) = ($550 + $240 + $45) ÷ $1,300 = **64%**
+    - At 64% the borrower is way past most lenders' ~43–50% ceiling — exactly why students so often need a **co-signer**. Note the lender counts your **rent** here even though you don't own. *(computed)*
+- **Forward look — your deferred student loans hit DTI the day you graduate.** Tuition at **$3,500/semester** = **$7,000/year**, or **~$28,000** across a 4-year degree if federally financed. Those loans sit quietly in deferment while you're enrolled, then become a **~$315/month** back-end line on a standard 10-year term (2025–26 undergrad rate **6.39%**) — often the very line that pushes a new grad's DTI over a mortgage lender's limit. ([Federal Student Aid](https://studentaid.gov/understand-aid/types/loans/interest-rates))
+- **The 28/36 rule** — classic benchmark: **≤28%** of gross income to the mortgage, **≤36%** to total debt; most lenders prefer back-end **≤36%** for the best pricing. ([myFICO](https://www.myfico.com/credit-education/blog/why-is-DTI-important))
+- **Thresholds by loan program (2025–2026):**
+    - **Conventional / Fannie Mae:** automated underwriting allows DTI up to **50%**; manual benchmarks at **36%**, stretchable to **45%** with stronger score + reserves. ([Fannie Mae B3-6-02](https://selling-guide.fanniemae.com/sel/b3-6-02/debt-income-ratios))
+    - **FHA (Handbook 4000.1):** standard caps **31% front / 43% back**; manual-underwriting maximums are **tiered** — 31/43 with no compensating factors, 37/47 with one, **40/50** with two or more (the ~50% is the **back-end** max). FHA files generally must be manually underwritten when the decision score is **<620 AND total DTI >43%.** ([HUD](https://archives.hud.gov/offices/hsg/sfh/ref/sfhp2-12.cfm))
+    - **Rules of thumb across products:** ≤35% comfortable, up to ~**50%** is the practical ceiling at most lenders. ([Experian](https://www.experian.com/blogs/ask-experian/credit-education/debt-to-income-ratio/))
+- **The "43% Qualified Mortgage" number is now historical.** The 2014 QM/Ability-to-Repay rule capped back-end DTI at **43%**. The CFPB's **General QM Final Rule (Dec. 10, 2020)** **removed that cap** and replaced it with a **price-based test**: for a first lien, the loan qualifies if its **APR exceeds the Average Prime Offer Rate (APOR) by less than 2.25 percentage points** (the threshold is *tiered* — up to ~6.5 points for smaller loans, subordinate liens, and certain manufactured housing). ([CFPB](https://www.consumerfinance.gov/rules-policy/final-rules/qualified-mortgage-definition-under-truth-lending-act-regulation-z-general-qm-loan-definition/))
+    - DTI didn't disappear — the **Ability-to-Repay rule still forces lenders to consider** income/assets, current debts, and DTI or residual income among **8 required factors.**
+- **Why DTI is NOT in your credit score** — but is central to underwriting:
+    - Scoring models only read your **credit report**, and **income isn't on the credit report** — so it mathematically *can't* enter the score. myFICO: "Your DTI doesn't directly impact your FICO Score because your income is not considered."
+    - So a 760-FICO borrower can still be **denied a mortgage for DTI** — the score measures *willingness/likelihood* to repay; DTI measures *capacity* to repay. Lenders pull income docs (W-2s, pay stubs) separately to compute it.
+
+---
+
+### M7 · Credit beyond you — business & bond ratings  ·  ~8 min  ·  *optional deep dive*
+
+#### Business / commercial credit
 - Three major business credit bureaus: **Equifax, Experian, Dun & Bradstreet.** Business scores commonly range **0–100** (e.g. D&B's PAYDEX), though lender-facing models differ (FICO's small-business SBSS runs 0–300). ([Investopedia](https://www.investopedia.com/terms/b/business-credit-score.asp))
 - Negative data can impact business scores for up to **9 years, 9 months.**
 - Loan eligibility weighs: revenue, profits, assets and liabilities, collateral value of equipment to be bought, and credit score.
@@ -231,7 +267,7 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 - Raising a business score: pay bills on time; keep utilization healthy (30%+ is too high, ~20% a better goal); do business with entities that report to the bureaus.
 - Starting business credit for a new company: incorporate or form an **LLC** (separate legal entity); get a federal **EIN**; open business bank accounts in the legal name; set up and list a dedicated business phone line.
 
-**Investment-grade vs. high-yield bond ratings** *(the investing-minded deep dive)*
+#### Investment-grade vs. high-yield bond ratings
 - **The scales, side by side.** S&P and Fitch share one alphabet; Moody's uses its own. Top to default: **AAA/Aaa → AA/Aa → A/A → BBB/Baa → BB/Ba → B/B → CCC/Caa → CC/Ca → C/C → D.** ([Fidelity](https://www.fidelity.com/learning-center/investment-products/fixed-income-bonds/bond-ratings))
     - **Notch modifiers** — S&P/Fitch append **+ / (none) / –**; Moody's appends **1 / 2 / 3** (so AA+ ≈ Aa1). "+/1" = top third of the band, "–/3" = bottom third.
     - **Plain-English rungs** — AAA "prime," AA "high grade," A "upper-medium," BBB "lower-medium," BB "non-investment-grade speculative," B "highly speculative," CCC "substantial risk," **D = in default.**

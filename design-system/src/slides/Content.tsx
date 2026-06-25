@@ -37,20 +37,20 @@ export function Content({
 }: ContentProps) {
   return (
     <Slide footerNote={footerNote}>
-      <div className={`wmt-content${aside ? " wmt-content--split" : ""}`}>
-        <div className="wmt-content__main">
-          {eyebrow && <span className="wmt-eyebrow">{eyebrow}</span>}
-          <h1 className="wmt-content__title">{title}</h1>
-          {lead && <p className="wmt-content__lead">{lead}</p>}
+      <div className={`cmt-content${aside ? " cmt-content--split" : ""}`}>
+        <div className="cmt-content__main">
+          {eyebrow && <span className="cmt-eyebrow">{eyebrow}</span>}
+          <h1 className="cmt-content__title">{title}</h1>
+          {lead && <p className="cmt-content__lead">{lead}</p>}
           {points.length > 0 && (
-            <ul className="wmt-content__list">
+            <ul className="cmt-content__list">
               {points.map(asPoint).map((p, i) => (
-                <li key={i} className="wmt-content__item">
-                  <span className="wmt-content__bullet" aria-hidden="true" />
-                  <div className="wmt-content__text">
+                <li key={i} className="cmt-content__item">
+                  <span className="cmt-content__bullet" aria-hidden="true" />
+                  <div className="cmt-content__text">
                     <span>{p.text}</span>
                     {p.sub && p.sub.length > 0 && (
-                      <ul className="wmt-content__sublist">
+                      <ul className="cmt-content__sublist">
                         {p.sub.map((s, j) => (
                           <li key={j}>{s}</li>
                         ))}
@@ -62,7 +62,7 @@ export function Content({
             </ul>
           )}
         </div>
-        {aside && <div className="wmt-content__aside">{aside}</div>}
+        {aside && <div className="cmt-content__aside">{aside}</div>}
       </div>
     </Slide>
   );

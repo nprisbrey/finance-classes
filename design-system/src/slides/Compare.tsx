@@ -32,25 +32,25 @@ export function Compare({
 }: CompareProps) {
   return (
     <Slide footerNote={footerNote}>
-      <div className="wmt-compare">
-        <div className="wmt-compare__head">
-          {eyebrow && <span className="wmt-eyebrow">{eyebrow}</span>}
-          <h1 className="wmt-compare__title">{title}</h1>
+      <div className="cmt-compare">
+        <div className="cmt-compare__head">
+          {eyebrow && <span className="cmt-eyebrow">{eyebrow}</span>}
+          <h1 className="cmt-compare__title">{title}</h1>
         </div>
         <div
-          className="wmt-compare__cols"
+          className="cmt-compare__cols"
           data-count={Math.min(columns.length, 3)}
         >
           {columns.map((c, i) => (
             <div
               key={i}
-              className={`wmt-compare__col wmt-compare__col--${c.tone ?? "neutral"}`}
+              className={`cmt-compare__col cmt-compare__col--${c.tone ?? "neutral"}`}
             >
-              <div className="wmt-compare__colhead">
-                <span className="wmt-compare__chip">{c.head}</span>
-                {c.sub && <span className="wmt-compare__sub">{c.sub}</span>}
+              <div className="cmt-compare__colhead">
+                <span className="cmt-compare__chip">{c.head}</span>
+                {c.sub && <span className="cmt-compare__sub">{c.sub}</span>}
               </div>
-              <ul className="wmt-compare__list">
+              <ul className="cmt-compare__list">
                 {c.points.map((p, j) => (
                   <li key={j}>{p}</li>
                 ))}
@@ -58,7 +58,7 @@ export function Compare({
             </div>
           ))}
         </div>
-        {caption && <p className="wmt-compare__caption">{caption}</p>}
+        {caption && <p className="cmt-compare__caption">{caption}</p>}
       </div>
     </Slide>
   );

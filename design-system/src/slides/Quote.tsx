@@ -24,13 +24,13 @@ export function Quote({
 }: QuoteProps) {
   return (
     <Slide variant={variant} footer={variant !== "ink"} footerNote={footerNote}>
-      <figure className="wmt-quote">
-        <span className="wmt-quote__mark" aria-hidden="true">&ldquo;</span>
-        <blockquote className="wmt-quote__text">{quote}</blockquote>
+      <figure className="cmt-quote">
+        <span className="cmt-quote__mark" aria-hidden="true">&ldquo;</span>
+        <blockquote className="cmt-quote__text">{quote}</blockquote>
         {(attribution || context) && (
-          <figcaption className="wmt-quote__cite">
-            {attribution && <span className="wmt-quote__who">{attribution}</span>}
-            {context && <span className="wmt-quote__ctx">{context}</span>}
+          <figcaption className="cmt-quote__cite">
+            {attribution && <span className="cmt-quote__who">{attribution}</span>}
+            {context && <span className="cmt-quote__ctx">{context}</span>}
           </figcaption>
         )}
       </figure>

@@ -30,17 +30,17 @@ export function ModuleMenu({
 }: ModuleMenuProps) {
   return (
     <Slide footerNote={footerNote}>
-      <div className="wmt-menu">
-        <div className="wmt-menu__head">
-          <span className="wmt-eyebrow">{eyebrow}</span>
-          <h1 className="wmt-menu__title">{title}</h1>
+      <div className="cmt-menu">
+        <div className="cmt-menu__head">
+          <span className="cmt-eyebrow">{eyebrow}</span>
+          <h1 className="cmt-menu__title">{title}</h1>
         </div>
-        <ol className="wmt-menu__list">
+        <ol className="cmt-menu__list">
           {modules.map((m) => (
-            <li key={m.id} className="wmt-menu__item">
-              <span className="wmt-menu__id">{m.id}</span>
-              <span className="wmt-menu__label">{m.title}</span>
-              <span className="wmt-menu__meta">
+            <li key={m.id} className="cmt-menu__item">
+              <span className="cmt-menu__id">{m.id}</span>
+              <span className="cmt-menu__label">{m.title}</span>
+              <span className="cmt-menu__meta">
                 {m.note && <Tag tone="accent">{m.note}</Tag>}
                 {typeof m.minutes === "number" && (
                   <Tag tone="neutral">{m.minutes} min</Tag>

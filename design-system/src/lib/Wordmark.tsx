@@ -1,14 +1,14 @@
 import "./Wordmark.css";
 
 export interface WordmarkProps {
-  /** Full name or the short "WMT" monogram. */
+  /** Full name or the short "CMT" monogram. */
   variant?: "full" | "mark";
   /** Color treatment for the surface it sits on. */
   tone?: "ink" | "light";
   className?: string;
 }
 
-/** The Weekly Money Talk logo: an ascending-bars glyph + wordmark. */
+/** The Compound Money Talk logo: an ascending-bars glyph + wordmark. */
 export function Wordmark({
   variant = "full",
   tone = "ink",
@@ -16,19 +16,19 @@ export function Wordmark({
 }: WordmarkProps) {
   return (
     <span
-      className={`wmt-root wmt-wordmark wmt-wordmark--${tone}${
+      className={`cmt-root cmt-wordmark cmt-wordmark--${tone}${
         className ? " " + className : ""
       }`}
     >
-      <span className="wmt-wordmark__glyph" aria-hidden="true">
-        <span className="wmt-wordmark__bars">
+      <span className="cmt-wordmark__glyph" aria-hidden="true">
+        <span className="cmt-wordmark__bars">
           <i />
           <i />
           <i />
         </span>
       </span>
-      <span className="wmt-wordmark__name">
-        {variant === "full" ? "Weekly Money Talk" : "WMT"}
+      <span className="cmt-wordmark__name">
+        {variant === "full" ? "Weekly Money Talk" : "CMT"}
       </span>
     </span>
   );

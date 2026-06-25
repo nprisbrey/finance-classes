@@ -1,42 +1,42 @@
-.wmt-quote {
+.cmt-quote {
   display: flex;
   flex-direction: column;
   justify-content: center;
   height: 100%;
   position: relative;
 }
-.wmt-quote__mark {
+.cmt-quote__mark {
   font-size: 9rem;
   line-height: 0.6;
-  font-weight: var(--wmt-fw-extra);
-  color: var(--wmt-accent);
+  font-weight: var(--cmt-fw-extra);
+  color: var(--cmt-accent);
   height: 4rem;
 }
-.wmt-slide--ink .wmt-quote__mark {
-  color: var(--wmt-indigo-200);
+.cmt-slide--ink .cmt-quote__mark {
+  color: var(--cmt-indigo-200);
 }
-.wmt-quote__text {
-  margin-top: var(--wmt-s4);
+.cmt-quote__text {
+  margin-top: var(--cmt-s4);
   font-size: 2.5rem;
-  font-weight: var(--wmt-fw-semibold);
-  line-height: var(--wmt-lh-snug);
-  letter-spacing: var(--wmt-tracking-tight);
+  font-weight: var(--cmt-fw-semibold);
+  line-height: var(--cmt-lh-snug);
+  letter-spacing: var(--cmt-tracking-tight);
   max-width: 24ch;
 }
-.wmt-quote__cite {
-  margin-top: var(--wmt-s6);
+.cmt-quote__cite {
+  margin-top: var(--cmt-s6);
   display: flex;
   flex-direction: column;
   gap: 2px;
 }
-.wmt-quote__who {
-  font-size: var(--wmt-fs-h3);
-  font-weight: var(--wmt-fw-semibold);
+.cmt-quote__who {
+  font-size: var(--cmt-fs-h3);
+  font-weight: var(--cmt-fw-semibold);
 }
-.wmt-quote__ctx {
-  font-size: var(--wmt-fs-small);
-  color: var(--wmt-muted);
+.cmt-quote__ctx {
+  font-size: var(--cmt-fs-small);
+  color: var(--cmt-muted);
 }
-.wmt-slide--ink .wmt-quote__ctx {
+.cmt-slide--ink .cmt-quote__ctx {
   color: rgba(255, 255, 255, 0.6);
 }

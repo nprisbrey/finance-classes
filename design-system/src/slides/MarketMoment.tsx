@@ -33,28 +33,28 @@ export function MarketMoment({
 }: MarketMomentProps) {
   return (
     <Slide variant="mist" footerNote={footerNote}>
-      <div className="wmt-market">
-        <div className="wmt-market__bar">
-          <span className="wmt-eyebrow">{eyebrow}</span>
-          {date && <span className="wmt-market__date wmt-num">{date}</span>}
+      <div className="cmt-market">
+        <div className="cmt-market__bar">
+          <span className="cmt-eyebrow">{eyebrow}</span>
+          {date && <span className="cmt-market__date cmt-num">{date}</span>}
         </div>
-        <div className="wmt-market__card">
-          <h1 className="wmt-market__headline">{headline}</h1>
-          {dek && <p className="wmt-market__dek">{dek}</p>}
+        <div className="cmt-market__card">
+          <h1 className="cmt-market__headline">{headline}</h1>
+          {dek && <p className="cmt-market__dek">{dek}</p>}
           {stats && stats.length > 0 && (
-            <div className="wmt-market__ticker">
+            <div className="cmt-market__ticker">
               {stats.map((s, i) => (
-                <div key={i} className={`wmt-tick wmt-tick--${s.direction ?? "flat"}`}>
-                  <span className="wmt-tick__value wmt-num">
+                <div key={i} className={`cmt-tick cmt-tick--${s.direction ?? "flat"}`}>
+                  <span className="cmt-tick__value cmt-num">
                     {s.direction === "up" ? "▲ " : s.direction === "down" ? "▼ " : ""}
                     {s.value}
                   </span>
-                  <span className="wmt-tick__label">{s.label}</span>
+                  <span className="cmt-tick__label">{s.label}</span>
                 </div>
               ))}
             </div>
           )}
-          {source && <p className="wmt-market__source">{source}</p>}
+          {source && <p className="cmt-market__source">{source}</p>}
         </div>
       </div>
     </Slide>

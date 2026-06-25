@@ -1,8 +1,8 @@
 {
-  "name": "weekly-money-talk-design",
+  "name": "compound-money-talk-design",
   "version": "0.1.0",
   "private": true,
-  "description": "Weekly Money Talk — a slide design system for the weekly finance class",
+  "description": "Compound Money Talk — a slide design system for the weekly finance class",
   "type": "module",
   "main": "./dist/index.js",
   "module": "./dist/index.js",

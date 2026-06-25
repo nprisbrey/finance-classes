@@ -17,16 +17,16 @@ export interface CoverProps {
 export function Cover({ title, subtitle, week, meta }: CoverProps) {
   return (
     <Slide variant="ink" footer={false}>
-      <div className="wmt-cover">
-        <div className="wmt-cover__top">
+      <div className="cmt-cover">
+        <div className="cmt-cover__top">
           <Wordmark tone="light" />
-          {meta && <span className="wmt-cover__meta wmt-num">{meta}</span>}
+          {meta && <span className="cmt-cover__meta cmt-num">{meta}</span>}
         </div>
-        <div className="wmt-cover__main">
-          {week && <span className="wmt-eyebrow wmt-cover__week">{week}</span>}
-          <h1 className="wmt-cover__title">{title}</h1>
-          {subtitle && <p className="wmt-cover__subtitle">{subtitle}</p>}
-          <span className="wmt-cover__rule" aria-hidden="true" />
+        <div className="cmt-cover__main">
+          {week && <span className="cmt-eyebrow cmt-cover__week">{week}</span>}
+          <h1 className="cmt-cover__title">{title}</h1>
+          {subtitle && <p className="cmt-cover__subtitle">{subtitle}</p>}
+          <span className="cmt-cover__rule" aria-hidden="true" />
         </div>
       </div>
     </Slide>

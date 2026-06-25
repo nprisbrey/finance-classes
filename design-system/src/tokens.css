@@ -1,86 +1,86 @@
-/* Weekly Money Talk — design tokens
+/* Compound Money Talk — design tokens
    Minimal-fintech palette (Stripe / Mercury / Linear lane).
-   Every component styles itself from these var(--wmt-*) tokens. */
+   Every component styles itself from these var(--cmt-*) tokens. */
 :root {
   /* ---- color: brand ---- */
-  --wmt-indigo-50: #eef2ff;
-  --wmt-indigo-100: #e0e7ff;
-  --wmt-indigo-200: #c7d2fe;
-  --wmt-indigo-500: #4f46e5; /* primary accent */
-  --wmt-indigo-600: #4338ca;
-  --wmt-indigo-700: #3730a3;
+  --cmt-indigo-50: #eef2ff;
+  --cmt-indigo-100: #e0e7ff;
+  --cmt-indigo-200: #c7d2fe;
+  --cmt-indigo-500: #4f46e5; /* primary accent */
+  --cmt-indigo-600: #4338ca;
+  --cmt-indigo-700: #3730a3;
 
   /* ---- color: ink + neutrals ---- */
-  --wmt-ink: #0b1220; /* primary text / dark surface */
-  --wmt-ink-700: #1e293b;
-  --wmt-muted: #5b6472; /* secondary text */
-  --wmt-muted-2: #94a3b8; /* tertiary text / captions */
-  --wmt-mist: #f6f7fb; /* app surface tint */
-  --wmt-surface: #ffffff;
-  --wmt-hairline: #e5e8f0; /* 1px borders / rules */
+  --cmt-ink: #0b1220; /* primary text / dark surface */
+  --cmt-ink-700: #1e293b;
+  --cmt-muted: #5b6472; /* secondary text */
+  --cmt-muted-2: #94a3b8; /* tertiary text / captions */
+  --cmt-mist: #f6f7fb; /* app surface tint */
+  --cmt-surface: #ffffff;
+  --cmt-hairline: #e5e8f0; /* 1px borders / rules */
 
   /* ---- color: data semantics (finance up/down) ---- */
-  --wmt-pos: #10b981; /* gains / good */
-  --wmt-neg: #ef4444; /* losses / risk */
-  --wmt-warn: #f59e0b; /* caution */
+  --cmt-pos: #10b981; /* gains / good */
+  --cmt-neg: #ef4444; /* losses / risk */
+  --cmt-warn: #f59e0b; /* caution */
 
   /* ---- semantic aliases ---- */
-  --wmt-bg: var(--wmt-surface);
-  --wmt-fg: var(--wmt-ink);
-  --wmt-accent: var(--wmt-indigo-500);
-  --wmt-accent-soft: var(--wmt-indigo-50);
+  --cmt-bg: var(--cmt-surface);
+  --cmt-fg: var(--cmt-ink);
+  --cmt-accent: var(--cmt-indigo-500);
+  --cmt-accent-soft: var(--cmt-indigo-50);
 
   /* ---- typography ---- */
-  --wmt-font-sans: "Inter", ui-sans-serif, system-ui, -apple-system,
+  --cmt-font-sans: "Inter", ui-sans-serif, system-ui, -apple-system,
     "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
-  --wmt-font-mono: "Inter", ui-monospace, "SF Mono", Menlo, monospace;
+  --cmt-font-mono: "Inter", ui-monospace, "SF Mono", Menlo, monospace;
 
-  --wmt-fs-display: 3.5rem; /* 56 — cover titles */
-  --wmt-fs-h1: 2.5rem; /* 40 — slide headlines */
-  --wmt-fs-h2: 1.75rem; /* 28 — section heads */
-  --wmt-fs-h3: 1.25rem; /* 20 — sub-heads */
-  --wmt-fs-body: 1.125rem; /* 18 — body */
-  --wmt-fs-small: 0.9375rem; /* 15 */
-  --wmt-fs-caption: 0.8125rem; /* 13 — eyebrows / sources */
+  --cmt-fs-display: 3.5rem; /* 56 — cover titles */
+  --cmt-fs-h1: 2.5rem; /* 40 — slide headlines */
+  --cmt-fs-h2: 1.75rem; /* 28 — section heads */
+  --cmt-fs-h3: 1.25rem; /* 20 — sub-heads */
+  --cmt-fs-body: 1.125rem; /* 18 — body */
+  --cmt-fs-small: 0.9375rem; /* 15 */
+  --cmt-fs-caption: 0.8125rem; /* 13 — eyebrows / sources */
 
-  --wmt-lh-tight: 1.05;
-  --wmt-lh-snug: 1.25;
-  --wmt-lh-body: 1.55;
+  --cmt-lh-tight: 1.05;
+  --cmt-lh-snug: 1.25;
+  --cmt-lh-body: 1.55;
 
-  --wmt-fw-regular: 400;
-  --wmt-fw-medium: 500;
-  --wmt-fw-semibold: 600;
-  --wmt-fw-bold: 700;
-  --wmt-fw-extra: 800;
+  --cmt-fw-regular: 400;
+  --cmt-fw-medium: 500;
+  --cmt-fw-semibold: 600;
+  --cmt-fw-bold: 700;
+  --cmt-fw-extra: 800;
 
-  --wmt-tracking-eyebrow: 0.14em; /* uppercase eyebrows */
-  --wmt-tracking-tight: -0.02em; /* large display */
+  --cmt-tracking-eyebrow: 0.14em; /* uppercase eyebrows */
+  --cmt-tracking-tight: -0.02em; /* large display */
 
   /* ---- spacing scale ---- */
-  --wmt-s1: 4px;
-  --wmt-s2: 8px;
-  --wmt-s3: 12px;
-  --wmt-s4: 16px;
-  --wmt-s5: 24px;
-  --wmt-s6: 32px;
-  --wmt-s7: 48px;
-  --wmt-s8: 64px;
+  --cmt-s1: 4px;
+  --cmt-s2: 8px;
+  --cmt-s3: 12px;
+  --cmt-s4: 16px;
+  --cmt-s5: 24px;
+  --cmt-s6: 32px;
+  --cmt-s7: 48px;
+  --cmt-s8: 64px;
 
   /* ---- radius ---- */
-  --wmt-r-sm: 8px;
-  --wmt-r-md: 12px;
-  --wmt-r-lg: 20px;
-  --wmt-r-pill: 999px;
+  --cmt-r-sm: 8px;
+  --cmt-r-md: 12px;
+  --cmt-r-lg: 20px;
+  --cmt-r-pill: 999px;
 
   /* ---- elevation ---- */
-  --wmt-shadow-sm: 0 1px 2px rgba(11, 18, 32, 0.06),
+  --cmt-shadow-sm: 0 1px 2px rgba(11, 18, 32, 0.06),
     0 1px 1px rgba(11, 18, 32, 0.04);
-  --wmt-shadow-md: 0 8px 24px rgba(11, 18, 32, 0.08),
+  --cmt-shadow-md: 0 8px 24px rgba(11, 18, 32, 0.08),
     0 2px 6px rgba(11, 18, 32, 0.05);
-  --wmt-shadow-lg: 0 24px 60px rgba(11, 18, 32, 0.12);
+  --cmt-shadow-lg: 0 24px 60px rgba(11, 18, 32, 0.12);
 
   /* ---- slide frame (16:9) ---- */
-  --wmt-slide-w: 1280px;
-  --wmt-slide-h: 720px;
-  --wmt-pad: 64px;
+  --cmt-slide-w: 1280px;
+  --cmt-slide-h: 720px;
+  --cmt-pad: 64px;
 }

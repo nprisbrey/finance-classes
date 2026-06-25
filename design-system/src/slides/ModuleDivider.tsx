@@ -15,12 +15,12 @@ export interface ModuleDividerProps {
 export function ModuleDivider({ id, title, minutes, blurb }: ModuleDividerProps) {
   return (
     <Slide variant="ink" footer={false}>
-      <div className="wmt-divider">
-        <span className="wmt-divider__id">{id}</span>
-        <h1 className="wmt-divider__title">{title}</h1>
-        {blurb && <p className="wmt-divider__blurb">{blurb}</p>}
+      <div className="cmt-divider">
+        <span className="cmt-divider__id">{id}</span>
+        <h1 className="cmt-divider__title">{title}</h1>
+        {blurb && <p className="cmt-divider__blurb">{blurb}</p>}
         {typeof minutes === "number" && (
-          <div className="wmt-divider__meta">
+          <div className="cmt-divider__meta">
             <Tag tone="accent">{minutes} min</Tag>
           </div>
         )}

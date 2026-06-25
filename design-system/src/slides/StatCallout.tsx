@@ -29,31 +29,31 @@ export function StatCallout({
 }: StatCalloutProps) {
   return (
     <Slide variant="mist" footerNote={footerNote}>
-      <div className="wmt-stats">
+      <div className="cmt-stats">
         {(eyebrow || title) && (
-          <div className="wmt-stats__head">
-            {eyebrow && <span className="wmt-eyebrow">{eyebrow}</span>}
-            {title && <h1 className="wmt-stats__title">{title}</h1>}
+          <div className="cmt-stats__head">
+            {eyebrow && <span className="cmt-eyebrow">{eyebrow}</span>}
+            {title && <h1 className="cmt-stats__title">{title}</h1>}
           </div>
         )}
         <div
-          className="wmt-stats__grid"
+          className="cmt-stats__grid"
           data-count={Math.min(stats.length, 4)}
         >
           {stats.map((s, i) => (
-            <div key={i} className="wmt-stat">
-              <div className="wmt-stat__value wmt-num">
+            <div key={i} className="cmt-stat">
+              <div className="cmt-stat__value cmt-num">
                 {s.value}
                 {s.delta && (
                   <span
-                    className={`wmt-stat__delta wmt-stat__delta--${s.delta.direction}`}
+                    className={`cmt-stat__delta cmt-stat__delta--${s.delta.direction}`}
                   >
                     {s.delta.direction === "up" ? "▲" : "▼"} {s.delta.value}
                   </span>
                 )}
               </div>
-              <div className="wmt-stat__label">{s.label}</div>
-              {s.source && <div className="wmt-stat__source">{s.source}</div>}
+              <div className="cmt-stat__label">{s.label}</div>
+              {s.source && <div className="cmt-stat__source">{s.source}</div>}
             </div>
           ))}
         </div>

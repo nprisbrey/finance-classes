@@ -1,28 +1,28 @@
-.wmt-tag {
+.cmt-tag {
   display: inline-flex;
   align-items: center;
-  gap: var(--wmt-s2);
+  gap: var(--cmt-s2);
   padding: 6px 12px;
-  border-radius: var(--wmt-r-pill);
-  font-size: var(--wmt-fs-small);
-  font-weight: var(--wmt-fw-semibold);
+  border-radius: var(--cmt-r-pill);
+  font-size: var(--cmt-fs-small);
+  font-weight: var(--cmt-fw-semibold);
   line-height: 1;
   white-space: nowrap;
 }
-.wmt-tag--neutral {
-  background: var(--wmt-mist);
-  color: var(--wmt-muted);
-  border: 1px solid var(--wmt-hairline);
+.cmt-tag--neutral {
+  background: var(--cmt-mist);
+  color: var(--cmt-muted);
+  border: 1px solid var(--cmt-hairline);
 }
-.wmt-tag--accent {
-  background: var(--wmt-accent-soft);
-  color: var(--wmt-indigo-700);
+.cmt-tag--accent {
+  background: var(--cmt-accent-soft);
+  color: var(--cmt-indigo-700);
 }
-.wmt-tag--pos {
+.cmt-tag--pos {
   background: rgba(16, 185, 129, 0.12);
   color: #0a7f5b;
 }
-.wmt-tag--neg {
+.cmt-tag--neg {
   background: rgba(239, 68, 68, 0.1);
   color: #b3261e;
 }

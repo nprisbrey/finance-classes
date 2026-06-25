@@ -39,7 +39,7 @@ function App() {
   return (
     <div className="grid">
       <Thumb label="Cover">
-        <Cover week="Week 1" title="Credit" subtitle="How borrowing works, and how to build a file that works for you." meta="Weekly Money Talk" />
+        <Cover week="Week 1" title="Credit" subtitle="How borrowing works, and how to build a file that works for you." meta="Compound Money Talk" />
       </Thumb>
       <Thumb label="Opener">
         <Opener

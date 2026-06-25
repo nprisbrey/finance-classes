@@ -21,21 +21,21 @@ export function Opener({
 }: OpenerProps) {
   return (
     <Slide footerNote={footerNote}>
-      <div className="wmt-opener">
-        <div className="wmt-opener__head">
-          <span className="wmt-eyebrow">{eyebrow}</span>
-          <h1 className="wmt-opener__title">{title}</h1>
+      <div className="cmt-opener">
+        <div className="cmt-opener__head">
+          <span className="cmt-eyebrow">{eyebrow}</span>
+          <h1 className="cmt-opener__title">{title}</h1>
         </div>
-        <div className="wmt-opener__grid" data-count={Math.min(prompts.length, 3)}>
+        <div className="cmt-opener__grid" data-count={Math.min(prompts.length, 3)}>
           {prompts.map((p, i) => (
-            <div key={i} className="wmt-opener__card">
-              <span className="wmt-opener__num wmt-num">{i + 1}</span>
-              <p className="wmt-opener__prompt">{p}</p>
+            <div key={i} className="cmt-opener__card">
+              <span className="cmt-opener__num cmt-num">{i + 1}</span>
+              <p className="cmt-opener__prompt">{p}</p>
             </div>
           ))}
         </div>
         {nudge && (
-          <p className="wmt-opener__nudge">
+          <p className="cmt-opener__nudge">
             <strong>This week:</strong> {nudge}
           </p>
         )}

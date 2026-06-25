@@ -19,16 +19,16 @@ export function Discussion({
 }: DiscussionProps) {
   return (
     <Slide variant="ink" footer={false}>
-      <div className="wmt-discuss">
-        <div className="wmt-discuss__head">
-          <span className="wmt-eyebrow">{eyebrow}</span>
-          <h1 className="wmt-discuss__title">{title}</h1>
+      <div className="cmt-discuss">
+        <div className="cmt-discuss__head">
+          <span className="cmt-eyebrow">{eyebrow}</span>
+          <h1 className="cmt-discuss__title">{title}</h1>
         </div>
-        <ol className="wmt-discuss__list">
+        <ol className="cmt-discuss__list">
           {questions.map((q, i) => (
-            <li key={i} className="wmt-discuss__item">
-              <span className="wmt-discuss__num wmt-num">{i + 1}</span>
-              <p className="wmt-discuss__q">{q}</p>
+            <li key={i} className="cmt-discuss__item">
+              <span className="cmt-discuss__num cmt-num">{i + 1}</span>
+              <p className="cmt-discuss__q">{q}</p>
             </li>
           ))}
         </ol>

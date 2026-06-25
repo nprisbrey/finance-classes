@@ -27,16 +27,16 @@ export function Sources({
     groups ?? (items ? [{ label: "", items }] : []);
   return (
     <Slide variant="mist" footerNote={footerNote}>
-      <div className="wmt-sources">
-        <div className="wmt-sources__head">
-          <h1 className="wmt-sources__title">{title}</h1>
+      <div className="cmt-sources">
+        <div className="cmt-sources__head">
+          <h1 className="cmt-sources__title">{title}</h1>
           <Wordmark tone="ink" />
         </div>
-        <div className="wmt-sources__cols">
+        <div className="cmt-sources__cols">
           {resolved.map((g, i) => (
-            <div key={i} className="wmt-sources__group">
-              {g.label && <div className="wmt-sources__label">{g.label}</div>}
-              <ul className="wmt-sources__list">
+            <div key={i} className="cmt-sources__group">
+              {g.label && <div className="cmt-sources__label">{g.label}</div>}
+              <ul className="cmt-sources__list">
                 {g.items.map((it, j) => (
                   <li key={j}>{it}</li>
                 ))}

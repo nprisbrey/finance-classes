@@ -11,7 +11,7 @@ export interface TagProps {
 /** A small pill label — module tags, time budgets, up/down markers. */
 export function Tag({ children, tone = "neutral", className }: TagProps) {
   return (
-    <span className={`wmt-tag wmt-tag--${tone}${className ? " " + className : ""}`}>
+    <span className={`cmt-tag cmt-tag--${tone}${className ? " " + className : ""}`}>
       {children}
     </span>
   );

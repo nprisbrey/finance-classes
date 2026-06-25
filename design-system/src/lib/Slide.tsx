@@ -8,7 +8,7 @@ export interface SlideProps {
   children: ReactNode;
   /** Surface style. `ink` is the dark cover / section-divider treatment. */
   variant?: SlideVariant;
-  /** Show the Weekly Money Talk footer bar. */
+  /** Show the Compound Money Talk footer bar. */
   footer?: boolean;
   /** Small right-aligned footer note, e.g. "Week 1 · Credit". */
   footerNote?: string;
@@ -28,18 +28,18 @@ export function Slide({
 }: SlideProps) {
   return (
     <section
-      className={`wmt-root wmt-slide wmt-slide--${variant}${
+      className={`cmt-root cmt-slide cmt-slide--${variant}${
         className ? " " + className : ""
       }`}
     >
-      <div className="wmt-slide__body">{children}</div>
+      <div className="cmt-slide__body">{children}</div>
       {footer && (
-        <footer className="wmt-slide__footer">
-          <span className="wmt-slide__brand">
-            <span className="wmt-slide__dot" aria-hidden="true" />
-            Weekly Money Talk
+        <footer className="cmt-slide__footer">
+          <span className="cmt-slide__brand">
+            <span className="cmt-slide__dot" aria-hidden="true" />
+            Compound Money Talk
           </span>
-          {footerNote && <span className="wmt-slide__note wmt-num">{footerNote}</span>}
+          {footerNote && <span className="cmt-slide__note cmt-num">{footerNote}</span>}
         </footer>
       )}
     </section>

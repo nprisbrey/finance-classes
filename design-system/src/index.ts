@@ -1,4 +1,4 @@
-// Weekly Money Talk — design system entry.
+// Compound Money Talk — design system entry.
 // Importing the package pulls in the base layer (tokens + Inter + root type).
 import "./base.css";
 

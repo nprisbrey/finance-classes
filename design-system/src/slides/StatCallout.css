@@ -18,7 +18,9 @@
   flex: 1 1 auto;
   display: grid;
   gap: var(--cmt-s5);
-  align-content: center;
+  /* cards fill the available height as substantial tiles, rather than
+     small cards floating centered with dead space above and below */
+  grid-auto-rows: minmax(0, 1fr);
 }
 .cmt-stats__grid[data-count="1"] {
   grid-template-columns: 1fr;
@@ -38,9 +40,10 @@
   border: 1px solid var(--cmt-hairline);
   border-radius: var(--cmt-r-md);
   box-shadow: var(--cmt-shadow-sm);
-  padding: var(--cmt-s5);
+  padding: var(--cmt-s6);
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: var(--cmt-s2);
 }
 .cmt-stat__value {
@@ -69,7 +72,7 @@
   color: var(--cmt-ink-700);
 }
 .cmt-stat__source {
-  margin-top: auto;
+  margin-top: var(--cmt-s3);
   font-size: var(--cmt-fs-caption);
   color: var(--cmt-muted-2);
 }

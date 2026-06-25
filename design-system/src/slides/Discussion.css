@@ -19,8 +19,8 @@
   flex: 1 1 auto;
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  gap: var(--cmt-s5);
+  justify-content: flex-start;
+  gap: var(--cmt-s6);
 }
 .cmt-discuss__item {
   display: flex;

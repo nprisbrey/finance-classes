@@ -16,7 +16,8 @@
   flex: 1 1 auto;
   display: grid;
   gap: var(--cmt-s4);
-  align-content: center;
+  /* prompt cards fill the height instead of floating small and centered */
+  grid-auto-rows: minmax(0, 1fr);
 }
 .cmt-opener__grid[data-count="1"] {
   grid-template-columns: 1fr;
@@ -31,10 +32,11 @@
   background: var(--cmt-mist);
   border: 1px solid var(--cmt-hairline);
   border-radius: var(--cmt-r-md);
-  padding: var(--cmt-s5);
+  padding: var(--cmt-s6);
   display: flex;
   flex-direction: column;
-  gap: var(--cmt-s3);
+  justify-content: center;
+  gap: var(--cmt-s4);
 }
 .cmt-opener__num {
   display: inline-grid;

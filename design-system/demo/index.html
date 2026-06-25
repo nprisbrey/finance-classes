@@ -44,6 +44,11 @@
         box-shadow: 0 10px 30px rgba(11, 18, 32, 0.1);
       }
       .thumb__frame {
+        /* render the slide at its true design size, THEN scale the whole
+           thing down — otherwise .cmt-slide's max-width:100% clamps it to
+           the 640px box and fixed-width layouts (e.g. StatCallout) overflow. */
+        width: 1280px;
+        height: 720px;
         transform: scale(0.5);
         transform-origin: top left;
       }

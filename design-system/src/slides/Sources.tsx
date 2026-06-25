@@ -25,8 +25,10 @@ export function Sources({
 }: SourcesProps) {
   const resolved: SourceGroup[] =
     groups ?? (items ? [{ label: "", items }] : []);
+  // footer={false}: this slide shows the full Wordmark in its head, so
+  // suppress the redundant corner mark. The footerNote still renders.
   return (
-    <Slide variant="mist" footerNote={footerNote}>
+    <Slide variant="mist" footer={false} footerNote={footerNote}>
       <div className="cmt-sources">
         <div className="cmt-sources__head">
           <h1 className="cmt-sources__title">{title}</h1>

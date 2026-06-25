@@ -3,6 +3,12 @@ dist/
 # generated demo bundle (source stays: app.tsx, index.html)
 demo/app.js
 demo/app.css
-.design-sync/
+# design-sync build scratch (config.json / NOTES.md / conventions.md / previews/ stay tracked)
 ds-bundle/
 .ds-sync/
+.design-sync/.cache/
+.design-sync/learnings/
+.design-sync/node_modules
+.ds-build-meta.json
+.sync-diff.json
+.render-check.json

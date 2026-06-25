@@ -1,0 +1,23 @@
+{
+  "projectId": "50bc3a07-8293-4435-aa7a-599e7888a94a",
+  "shape": "package",
+  "pkg": "compound-money-talk-design",
+  "globalName": "CMT",
+  "buildCmd": "pnpm build",
+  "cssEntry": "./dist/index.css",
+  "readmeHeader": ".design-sync/conventions.md",
+  "overrides": {
+    "Slide": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Light" },
+    "Cover": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Week1Credit" },
+    "Opener": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "RoundTable" },
+    "ModuleMenu": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "PickYourPath" },
+    "ModuleDivider": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "WithBlurb" },
+    "Content": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "BulletsWithSub" },
+    "StatCallout": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "ThreeStats" },
+    "Compare": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "TwoColumns" },
+    "Quote": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Ink" },
+    "MarketMoment": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Moodys" },
+    "Discussion": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Questions" },
+    "Sources": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Grouped" }
+  }
+}

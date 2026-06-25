@@ -8,16 +8,21 @@ export interface SlideProps {
   children: ReactNode;
   /** Surface style. `ink` is the dark cover / section-divider treatment. */
   variant?: SlideVariant;
-  /** Show the Compound Money Talk footer bar. */
+  /**
+   * Show the small brand mark in the top-right corner. The full
+   * "Compound Money Talk" wordmark is reserved for the Cover / dividers,
+   * which set this `false`.
+   */
   footer?: boolean;
-  /** Small right-aligned footer note, e.g. "Week 1 · Credit". */
+  /** Small bottom-right wayfinding note, e.g. "Week 1 · Credit". */
   footerNote?: string;
   className?: string;
 }
 
 /**
- * The fixed 16:9 canvas every slide renders inside. Owns the brand footer
- * and the three surface treatments (light, mist, ink).
+ * The fixed 16:9 canvas every slide renders inside. Owns the corner brand
+ * mark, the bottom-right note, and the three surface treatments
+ * (light, mist, ink).
  */
 export function Slide({
   children,
@@ -32,14 +37,19 @@ export function Slide({
         className ? " " + className : ""
       }`}
     >
-      <div className="cmt-slide__body">{children}</div>
       {footer && (
-        <footer className="cmt-slide__footer">
-          <span className="cmt-slide__brand">
-            <span className="cmt-slide__dot" aria-hidden="true" />
-            Compound Money Talk
+        <span className="cmt-slide__mark" aria-hidden="true">
+          <span className="cmt-slide__bars">
+            <i />
+            <i />
+            <i />
           </span>
-          {footerNote && <span className="cmt-slide__note cmt-num">{footerNote}</span>}
+        </span>
+      )}
+      <div className="cmt-slide__body">{children}</div>
+      {footerNote && (
+        <footer className="cmt-slide__footer">
+          <span className="cmt-slide__note cmt-num">{footerNote}</span>
         </footer>
       )}
     </section>

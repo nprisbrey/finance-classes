@@ -5,8 +5,8 @@
 }
 .cmt-market__bar {
   display: flex;
-  align-items: center;
-  justify-content: space-between;
+  align-items: baseline;
+  gap: var(--cmt-s4);
   margin-bottom: var(--cmt-s4);
 }
 .cmt-market__date {

@@ -52,34 +52,50 @@
   z-index: 1;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: flex-end;
   padding-top: var(--cmt-s4);
   font-size: var(--cmt-fs-caption);
   color: var(--cmt-muted-2);
 }
 
-.cmt-slide__brand {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--cmt-s2);
-  font-weight: var(--cmt-fw-semibold);
-  color: var(--cmt-muted);
-}
-
 .cmt-slide--ink .cmt-slide__footer {
   color: rgba(255, 255, 255, 0.5);
 }
-.cmt-slide--ink .cmt-slide__brand {
-  color: rgba(255, 255, 255, 0.72);
-}
 
-.cmt-slide__dot {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%;
+/* small version of the Wordmark mark, parked in the top-right corner so it
+   never sits in the content's reading flow. Full wordmark lives on the cover. */
+.cmt-slide__mark {
+  position: absolute;
+  top: var(--cmt-pad);
+  right: var(--cmt-pad);
+  z-index: 2;
+  display: inline-grid;
+  place-items: center;
+  width: 18px;
+  height: 18px;
+  border-radius: 5px;
   background: var(--cmt-accent);
-  box-shadow: 0 0 0 4px var(--cmt-accent-soft);
+  box-shadow: var(--cmt-shadow-sm);
 }
-.cmt-slide--ink .cmt-slide__dot {
-  box-shadow: 0 0 0 4px rgba(79, 70, 229, 0.25);
+.cmt-slide__bars {
+  display: flex;
+  align-items: flex-end;
+  gap: 1.5px;
+  height: 9px;
+}
+.cmt-slide__bars i {
+  width: 2px;
+  border-radius: 1px;
+  background: #fff;
+}
+.cmt-slide__bars i:nth-child(1) {
+  height: 4px;
+  opacity: 0.65;
+}
+.cmt-slide__bars i:nth-child(2) {
+  height: 6.5px;
+  opacity: 0.85;
+}
+.cmt-slide__bars i:nth-child(3) {
+  height: 9px;
 }

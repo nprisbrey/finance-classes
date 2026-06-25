@@ -9,7 +9,7 @@ export interface CoverProps {
   subtitle?: string;
   /** Eyebrow line, e.g. "Week 1". */
   week?: string;
-  /** Optional small kicker, e.g. a date or cohort. */
+  /** Optional small kicker, e.g. a series or cohort label. Avoid dates — they age the template. */
   meta?: string;
 }
 

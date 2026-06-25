@@ -28,7 +28,7 @@ export function Wordmark({
         </span>
       </span>
       <span className="cmt-wordmark__name">
-        {variant === "full" ? "Weekly Money Talk" : "CMT"}
+        {variant === "full" ? "Compound Money Talk" : "CMT"}
       </span>
     </span>
   );

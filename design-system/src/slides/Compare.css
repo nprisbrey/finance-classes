@@ -1,0 +1,93 @@
+.wmt-compare {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.wmt-compare__head {
+  margin-bottom: var(--wmt-s5);
+}
+.wmt-compare__title {
+  margin-top: var(--wmt-s3);
+  font-size: var(--wmt-fs-h1);
+  font-weight: var(--wmt-fw-bold);
+  letter-spacing: var(--wmt-tracking-tight);
+}
+.wmt-compare__cols {
+  flex: 1 1 auto;
+  display: grid;
+  gap: var(--wmt-s5);
+  align-content: stretch;
+}
+.wmt-compare__cols[data-count="2"] {
+  grid-template-columns: repeat(2, 1fr);
+}
+.wmt-compare__cols[data-count="3"] {
+  grid-template-columns: repeat(3, 1fr);
+}
+.wmt-compare__col {
+  border: 1px solid var(--wmt-hairline);
+  border-radius: var(--wmt-r-md);
+  padding: var(--wmt-s5);
+  background: var(--wmt-surface);
+  display: flex;
+  flex-direction: column;
+  gap: var(--wmt-s4);
+}
+.wmt-compare__col--accent {
+  border-color: var(--wmt-indigo-200);
+  background: var(--wmt-accent-soft);
+}
+.wmt-compare__colhead {
+  display: flex;
+  flex-direction: column;
+  gap: var(--wmt-s2);
+}
+.wmt-compare__chip {
+  align-self: flex-start;
+  font-size: var(--wmt-fs-h3);
+  font-weight: var(--wmt-fw-bold);
+  color: var(--wmt-ink);
+}
+.wmt-compare__col--accent .wmt-compare__chip {
+  color: var(--wmt-indigo-700);
+}
+.wmt-compare__col--pos .wmt-compare__chip {
+  color: #0a7f5b;
+}
+.wmt-compare__col--neg .wmt-compare__chip {
+  color: #b3261e;
+}
+.wmt-compare__sub {
+  font-size: var(--wmt-fs-small);
+  color: var(--wmt-muted);
+}
+.wmt-compare__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: var(--wmt-s3);
+  font-size: var(--wmt-fs-small);
+  line-height: var(--wmt-lh-snug);
+}
+.wmt-compare__list li {
+  padding-left: var(--wmt-s4);
+  position: relative;
+  color: var(--wmt-ink-700);
+}
+.wmt-compare__list li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.55em;
+  width: 7px;
+  height: 7px;
+  border-radius: 2px;
+  background: var(--wmt-accent);
+}
+.wmt-compare__caption {
+  margin-top: var(--wmt-s5);
+  font-size: var(--wmt-fs-small);
+  color: var(--wmt-muted);
+}

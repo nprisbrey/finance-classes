@@ -1,0 +1,41 @@
+/* Weekly Money Talk — base layer
+   Pulls in tokens + the Inter typeface and sets the root typography.
+   This is the file that anchors the @import closure for every design. */
+@import "./tokens.css";
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap");
+
+.wmt-root,
+.wmt-root *,
+.wmt-root *::before,
+.wmt-root *::after {
+  box-sizing: border-box;
+}
+
+.wmt-root {
+  font-family: var(--wmt-font-sans);
+  color: var(--wmt-fg);
+  font-size: var(--wmt-fs-body);
+  line-height: var(--wmt-lh-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+}
+
+.wmt-root :where(h1, h2, h3, h4, p, ul, ol, li, figure, blockquote) {
+  margin: 0;
+}
+
+/* tabular figures for any numeric/stat content */
+.wmt-num {
+  font-variant-numeric: tabular-nums;
+  font-feature-settings: "tnum" 1, "cv01" 1, "ss01" 1;
+}
+
+/* shared eyebrow label (uppercase, tracked, accent) */
+.wmt-eyebrow {
+  font-size: var(--wmt-fs-caption);
+  font-weight: var(--wmt-fw-semibold);
+  letter-spacing: var(--wmt-tracking-eyebrow);
+  text-transform: uppercase;
+  color: var(--wmt-accent);
+}

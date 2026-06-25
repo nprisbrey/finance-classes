@@ -1,0 +1,43 @@
+.wmt-cover {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.wmt-cover__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.wmt-cover__meta {
+  font-size: var(--wmt-fs-caption);
+  color: rgba(255, 255, 255, 0.55);
+  letter-spacing: 0.02em;
+}
+.wmt-cover__main {
+  margin-top: auto;
+}
+.wmt-cover__week {
+  display: block;
+  margin-bottom: var(--wmt-s4);
+}
+.wmt-cover__title {
+  font-size: var(--wmt-fs-display);
+  font-weight: var(--wmt-fw-extra);
+  line-height: var(--wmt-lh-tight);
+  letter-spacing: var(--wmt-tracking-tight);
+}
+.wmt-cover__subtitle {
+  margin-top: var(--wmt-s4);
+  font-size: var(--wmt-fs-h3);
+  font-weight: var(--wmt-fw-regular);
+  color: rgba(255, 255, 255, 0.72);
+  max-width: 42ch;
+}
+.wmt-cover__rule {
+  display: block;
+  width: 96px;
+  height: 5px;
+  border-radius: var(--wmt-r-pill);
+  background: linear-gradient(90deg, var(--wmt-indigo-500), var(--wmt-indigo-200));
+  margin-top: var(--wmt-s6);
+}

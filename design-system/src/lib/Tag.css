@@ -1,0 +1,28 @@
+.wmt-tag {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--wmt-s2);
+  padding: 6px 12px;
+  border-radius: var(--wmt-r-pill);
+  font-size: var(--wmt-fs-small);
+  font-weight: var(--wmt-fw-semibold);
+  line-height: 1;
+  white-space: nowrap;
+}
+.wmt-tag--neutral {
+  background: var(--wmt-mist);
+  color: var(--wmt-muted);
+  border: 1px solid var(--wmt-hairline);
+}
+.wmt-tag--accent {
+  background: var(--wmt-accent-soft);
+  color: var(--wmt-indigo-700);
+}
+.wmt-tag--pos {
+  background: rgba(16, 185, 129, 0.12);
+  color: #0a7f5b;
+}
+.wmt-tag--neg {
+  background: rgba(239, 68, 68, 0.1);
+  color: #b3261e;
+}

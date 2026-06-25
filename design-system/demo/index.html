@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Weekly Money Talk — design system preview</title>
+    <link rel="stylesheet" href="./app.css" />
+    <style>
+      body {
+        margin: 0;
+        background: #eef0f6;
+        font-family: "Inter", system-ui, sans-serif;
+        color: #0b1220;
+      }
+      .page {
+        max-width: 1360px;
+        margin: 0 auto;
+        padding: 40px 40px 80px;
+      }
+      .page h1 {
+        font-size: 22px;
+        font-weight: 800;
+        margin: 0 0 24px;
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 36px 32px;
+      }
+      .thumb__label {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 0.08em;
+        text-transform: uppercase;
+        color: #5b6472;
+        margin-bottom: 8px;
+      }
+      /* scale the fixed 1280x720 slide down into a thumbnail box */
+      .thumb__scale {
+        width: 640px;
+        height: 360px;
+        overflow: hidden;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(11, 18, 32, 0.1);
+      }
+      .thumb__frame {
+        transform: scale(0.5);
+        transform-origin: top left;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="page">
+      <h1>Weekly Money Talk — slide components</h1>
+      <div id="root"></div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>

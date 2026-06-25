@@ -1,0 +1,42 @@
+.wmt-quote {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100%;
+  position: relative;
+}
+.wmt-quote__mark {
+  font-size: 9rem;
+  line-height: 0.6;
+  font-weight: var(--wmt-fw-extra);
+  color: var(--wmt-accent);
+  height: 4rem;
+}
+.wmt-slide--ink .wmt-quote__mark {
+  color: var(--wmt-indigo-200);
+}
+.wmt-quote__text {
+  margin-top: var(--wmt-s4);
+  font-size: 2.5rem;
+  font-weight: var(--wmt-fw-semibold);
+  line-height: var(--wmt-lh-snug);
+  letter-spacing: var(--wmt-tracking-tight);
+  max-width: 24ch;
+}
+.wmt-quote__cite {
+  margin-top: var(--wmt-s6);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+.wmt-quote__who {
+  font-size: var(--wmt-fs-h3);
+  font-weight: var(--wmt-fw-semibold);
+}
+.wmt-quote__ctx {
+  font-size: var(--wmt-fs-small);
+  color: var(--wmt-muted);
+}
+.wmt-slide--ink .wmt-quote__ctx {
+  color: rgba(255, 255, 255, 0.6);
+}

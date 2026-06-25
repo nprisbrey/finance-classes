@@ -1,0 +1,8 @@
+node_modules/
+dist/
+# generated demo bundle (source stays: app.tsx, index.html)
+demo/app.js
+demo/app.css
+.design-sync/
+ds-bundle/
+.ds-sync/

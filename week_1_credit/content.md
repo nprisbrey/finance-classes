@@ -236,15 +236,24 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
     - **Notch modifiers** — S&P/Fitch append **+ / (none) / –**; Moody's appends **1 / 2 / 3** (so AA+ ≈ Aa1). "+/1" = top third of the band, "–/3" = bottom third.
     - **Plain-English rungs** — AAA "prime," AA "high grade," A "upper-medium," BBB "lower-medium," BB "non-investment-grade speculative," B "highly speculative," CCC "substantial risk," **D = in default.**
 - **The line that matters: BBB-/Baa3.** A bond is **investment grade (IG)** at **BBB-/Baa3 and above**; one notch lower — **BB+/Ba1** — is the top of **high yield (HY)** / "junk." Many pensions, insurers, and IG-only index funds are *mandated* to hold IG, so crossing the line triggers forced selling.
-- **Ratings map to default probability.** S&P's 1981–2024 study (global corporate averages) ([via investmentgrade.com](https://investmentgrade.com/bond-ratings/)):
-    - **AAA** — 1-yr **0.00%**, 10-yr **0.76%**
-    - **BBB** (IG floor) — 1-yr **0.16%**, 10-yr **4.40%**
-    - **BB** (HY top) — 1-yr **0.62%**, 10-yr **14.53%**
-    - **B** — 1-yr **3.27%**, 10-yr **27.79%**
-    - **CCC/C** — 1-yr **28.30%**, 10-yr **54.24%**
-    - The cliff at the IG/HY line: a one-notch slip from BBB to BB roughly **4×'s** the 1-year default rate and **3×'s** the 10-year.
+- **Ratings map to default probability.** S&P's 1981–2024 study — full cumulative default rates by grade (issuer-weighted averages, nonfinancial corporates) ([via investmentgrade.com](https://investmentgrade.com/bond-ratings/)):
+
+| Rating | 1-yr | 5-yr | 10-yr |
+|---|---|---|---|
+| **AAA** | 0.00% | 0.35% | 0.76% |
+| **AA** | 0.02% | 0.30% | 0.81% |
+| **A** | 0.05% | 0.55% | 1.90% |
+| **BBB** (IG floor) | 0.16% | 1.83% | 4.40% |
+| **BB** (HY top) | 0.62% | 7.14% | 14.53% |
+| **B** | 3.27% | 18.23% | 27.79% |
+| **CCC/C** | 28.30% | 47.30% | 54.24% |
+
+    - The cliff at the IG/HY line: a one-notch slip from **BBB → BB** roughly **4×'s** the 1-year default rate (0.16% → 0.62%) and **3×'s** the 10-year (4.40% → 14.53%). And note the jump from **BB → B** nearly doubles the 10-year rate again (14.53% → 27.79%).
 - **Ratings drive yields via credit spreads** — the extra yield over a same-maturity Treasury. ICE BofA option-adjusted spreads (OAS), ~**June 22, 2026**: IG corporate **~0.74%**, BBB **~0.93%**, HY master **~2.65%**, BB **~1.56%**, single-B **~2.83%**, CCC & lower **~9.47%**. ([FRED](https://fred.stlouisfed.org/series/BAMLH0A0HYM2))
-    - **Worked example:** the **947-bp** CCC spread on a $10,000 bond ≈ **+$947/yr** in extra coupon vs. a Treasury — but the 10-yr cumulative default rate is **54.24%**; at ~40% recovery, expected loss ≈ 0.5424 × 0.60 ≈ **33% of principal** over the decade. The fat spread is *compensation for real default risk*, not free money.
+    - **Worked example — is that spread free money?** The **947-bp** CCC spread on a $10,000 bond ≈ **+$947/yr** in extra coupon vs. a Treasury. Weigh it against **expected loss = probability of default × loss given default** — two *different* numbers:
+        - **Probability of default** over 10 years ≈ **54.24%** (the chance it defaults at all).
+        - **Loss given default** ≈ **60%** — because if it defaults you don't lose everything; bondholders historically **recover ~40¢ on the dollar**, so you lose ~60¢ (the **0.60 = 1 − 40% recovery**, *not* a second default probability).
+        - Expected loss ≈ 0.5424 × 0.60 ≈ **33% of principal** over the decade. The fat spread is *compensation for real default risk*, not free money.
 - **Issuer-pays model + conflict of interest.** Since the **1970s** the Big Three charge the **bond issuer** (not investors), inviting **"ratings shopping"** — an issuer solicits multiple agencies and uses the most favorable grade. ([CFR](https://www.cfr.org/backgrounders/credit-rating-controversy))
 - **The Big Three's market share:** S&P **~50%**, Moody's **~32%**, Fitch **~13%** — together **~94–95%** of the global market.
 - **2008: rated AAA, then incinerated.** The agencies stamped mortgage-backed securities and CDOs AAA, then mass-downgraded them — the **FCIC** called them "essential cogs in the wheel of financial destruction." **73%** of the MBS Moody's rated AAA in 2006 were junk by April 2010; ~$1.9 trillion of MBS were downgraded Q3 2007–Q2 2008. Structured finance grew to ~half of Moody's ratings revenue at up to 3× corporate fees. ([Wikipedia / FCIC](https://en.wikipedia.org/wiki/Credit_rating_agencies_and_the_subprime_crisis))
@@ -272,7 +281,10 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 **Why it matters — the tie-in to today's lesson**
 - A **sovereign credit rating is a credit score for a country** — same logic as a personal FICO/VantageScore: a grade predicting the odds the borrower fails to pay as promised, which sets the rate it's charged. Aaa → Aa1 is like slipping from an 820 to ~790: still excellent, no longer perfect.
 - A lower rating means bond investors demand more yield. And **the 10-year Treasury yield is the benchmark 30-year mortgage rates track**, feeding auto loans and card pricing too — when Uncle Sam's borrowing cost rises, so does yours. ([Deseret News](https://www.deseret.com/business/2025/05/19/us-credit-downgrade-moodys-ratings-consumer-interest-rates-mortgages-auto-loans-credit-cards/))
-    - **Context:** the week of the downgrade the **30-yr fixed mortgage averaged 6.81%** and the **average card APR was 20.12%.** On a **$400,000, 30-year** mortgage, each **+0.25%** (6.81% → 7.06%) adds ~**$67/month** and ~**$24,000** over the life of the loan.
+    - **What actually moved — and what didn't:**
+        - **30-yr fixed mortgage** had been flat-to-down (**6.76%** on May 8, below 7% for 17 straight weeks), then **rose**: **6.81%** (May 15, the survey week the Fri. May 16 downgrade fell in) → **6.86%** (May 22) → **6.89%** (May 29) — **+8 bps in the two weeks after** (+13 from May 8), tracking the climb in long-term Treasury yields. ([Freddie Mac via Fox Business](https://www.foxbusiness.com/economy/mortgage-rates-may-22-2025))
+        - **Credit-card APRs barely budged** (~**20.1%**; the average *new-card-offer* APR ticked from **23.75%** in April to **23.79%** in May, just +0.04 pt). Why the gap? Card APRs track the **Fed funds / prime rate**, which the Fed left **unchanged** — the downgrade hit the **long end** (Treasury yields → mortgages), not the short end. ([LendingTree](https://www.lendingtree.com/credit-cards/study/average-credit-card-interest-rate-in-america/))
+    - **The mortgage move in dollars:** on a **$400,000, 30-year** loan, each **+0.25%** (e.g. 6.81% → 7.06%) adds ~**$67/month** and ~**$24,000** over the life of the loan — so even a modest post-downgrade tick isn't nothing.
 
 **Discussion questions**
 - A country and a person get "downgraded" for the same core reason — too much debt relative to income and a track record of not fixing it. What's the personal-finance equivalent of "debt at 134% of GDP" and "interest eating 30% of revenue"?
@@ -328,6 +340,8 @@ Credit-flavored nudge for this week: has anyone checked their credit score latel
 **Market moment — Moody's downgrade**
 - Moody's rating action: https://www.moodys.com/web/en/us/about-us/usrating.html
 - Western Asset, Fortune, CoinDesk, CNBC, Deseret News (full URLs cited inline above)
+- Mortgage rates before/after (Freddie Mac PMMS via Fox Business): https://www.foxbusiness.com/economy/mortgage-rates-may-15-2025 and https://www.foxbusiness.com/economy/mortgage-rates-may-22-2025
+- Card-APR trend (LendingTree): https://www.lendingtree.com/credit-cards/study/average-credit-card-interest-rate-in-america/
 
 ## Original references (week-1 starting research)
 - [Credit: What It Is and How It Works](https://www.investopedia.com/terms/c/credit.asp)

@@ -15,6 +15,8 @@
     "Content": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "BulletsWithSub" },
     "StatCallout": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "ThreeStats" },
     "Compare": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "TwoColumns" },
+    "Table": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "MasterTable" },
+    "MoneyMap": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Week4" },
     "Quote": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Ink" },
     "MarketMoment": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Moodys" },
     "Discussion": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Questions" },

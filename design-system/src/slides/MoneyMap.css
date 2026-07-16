@@ -1,0 +1,162 @@
+.cmt-map {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.cmt-map__head {
+  margin-bottom: var(--cmt-s5);
+}
+.cmt-map__title {
+  margin-top: var(--cmt-s3);
+  font-size: var(--cmt-fs-h1);
+  font-weight: var(--cmt-fw-bold);
+  letter-spacing: var(--cmt-tracking-tight);
+}
+.cmt-map__flows {
+  flex: 1 1 auto;
+  min-height: 0;
+  display: grid;
+  /* three aligned columns: source · arrow · target */
+  grid-template-columns: minmax(0, 1fr) minmax(150px, 1.1fr) minmax(0, 1fr);
+  align-content: center;
+  gap: var(--cmt-s4) 0;
+}
+
+/* one flow spans the three columns via subgrid-like placement */
+.cmt-map__flow {
+  display: grid;
+  grid-column: 1 / -1;
+  grid-template-columns: subgrid;
+  align-items: center;
+}
+/* fallback for engines without subgrid */
+@supports not (grid-template-columns: subgrid) {
+  .cmt-map__flows {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .cmt-map__flow {
+    grid-template-columns: minmax(0, 1fr) minmax(150px, 1.1fr) minmax(0, 1fr);
+  }
+}
+
+/* nodes */
+.cmt-map__node {
+  border: 1px solid var(--cmt-hairline);
+  border-radius: var(--cmt-r-md);
+  background: var(--cmt-surface);
+  padding: var(--cmt-s3) var(--cmt-s4);
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  box-shadow: var(--cmt-shadow-sm);
+}
+.cmt-map__node-label {
+  font-size: var(--cmt-fs-h3);
+  font-weight: var(--cmt-fw-bold);
+  color: var(--cmt-ink);
+  line-height: var(--cmt-lh-snug);
+}
+.cmt-map__node-sub {
+  font-size: var(--cmt-fs-caption);
+  color: var(--cmt-muted);
+}
+
+/* the shared destination (targets) reads as the brand accent */
+.cmt-map__node--to {
+  border-color: var(--cmt-indigo-200);
+  background: var(--cmt-accent-soft);
+}
+.cmt-map__node--to .cmt-map__node-label {
+  color: var(--cmt-indigo-700);
+}
+
+/* dead-end cap */
+.cmt-map__node--stop {
+  align-items: center;
+  flex-direction: row;
+  gap: var(--cmt-s2);
+  border-style: dashed;
+  background: var(--cmt-mist);
+  box-shadow: none;
+}
+.cmt-map__stop-mark {
+  font-size: var(--cmt-fs-h2);
+  color: var(--cmt-muted-2);
+  line-height: 1;
+}
+.cmt-map__flow--dead .cmt-map__arrow-line {
+  background: repeating-linear-gradient(
+    90deg,
+    var(--cmt-muted-2) 0 6px,
+    transparent 6px 12px
+  );
+}
+.cmt-map__flow--dead .cmt-map__arrow-head {
+  display: none;
+}
+
+/* the arrow: a labelled line with a CSS triangle head */
+.cmt-map__arrow {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--cmt-s2);
+  padding: 0 var(--cmt-s4);
+}
+.cmt-map__arrow-label {
+  font-size: var(--cmt-fs-caption);
+  font-weight: var(--cmt-fw-semibold);
+  color: var(--cmt-accent);
+  text-align: center;
+  line-height: var(--cmt-lh-snug);
+}
+.cmt-map__arrow-line {
+  position: relative;
+  width: 100%;
+  height: 2px;
+  background: var(--cmt-accent);
+  border-radius: 1px;
+}
+.cmt-map__arrow-head {
+  position: absolute;
+  right: -1px;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 0;
+  height: 0;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+  border-left: 8px solid var(--cmt-accent);
+}
+
+/* tone variants recolour the arrow + label */
+.cmt-map__flow--neutral .cmt-map__arrow-label {
+  color: var(--cmt-muted);
+}
+.cmt-map__flow--neutral .cmt-map__arrow-line {
+  background: var(--cmt-muted-2);
+}
+.cmt-map__flow--neutral .cmt-map__arrow-head {
+  border-left-color: var(--cmt-muted-2);
+}
+.cmt-map__flow--pos .cmt-map__arrow-label {
+  color: #0a7f5b;
+}
+.cmt-map__flow--pos .cmt-map__arrow-line {
+  background: var(--cmt-pos);
+}
+.cmt-map__flow--pos .cmt-map__arrow-head {
+  border-left-color: var(--cmt-pos);
+}
+.cmt-map__flow--muted {
+  opacity: 0.72;
+}
+
+.cmt-map__caption {
+  margin-top: var(--cmt-s5);
+  font-size: var(--cmt-fs-small);
+  color: var(--cmt-muted);
+}

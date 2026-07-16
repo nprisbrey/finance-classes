@@ -1,0 +1,112 @@
+.cmt-table {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.cmt-table__head {
+  margin-bottom: var(--cmt-s5);
+}
+.cmt-table__title {
+  margin-top: var(--cmt-s3);
+  font-size: var(--cmt-fs-h1);
+  font-weight: var(--cmt-fw-bold);
+  letter-spacing: var(--cmt-tracking-tight);
+}
+/* the table gets the remaining height and scrolls internally if a deck
+   author over-fills it — the slide frame itself never grows */
+.cmt-table__scroll {
+  flex: 1 1 auto;
+  min-height: 0;
+  overflow: auto;
+}
+.cmt-table__grid {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: var(--cmt-fs-small);
+  line-height: var(--cmt-lh-snug);
+}
+.cmt-table--dense .cmt-table__grid {
+  font-size: var(--cmt-fs-caption);
+}
+
+/* header row */
+.cmt-table__th {
+  padding: 0 var(--cmt-s4) var(--cmt-s3);
+  font-size: var(--cmt-fs-caption);
+  font-weight: var(--cmt-fw-semibold);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cmt-muted);
+  border-bottom: 2px solid var(--cmt-hairline);
+  white-space: nowrap;
+  vertical-align: bottom;
+}
+.cmt-table__th--accent {
+  color: var(--cmt-indigo-700);
+}
+
+/* body rows */
+.cmt-table__row {
+  border-bottom: 1px solid var(--cmt-hairline);
+}
+.cmt-table__td {
+  padding: var(--cmt-s3) var(--cmt-s4);
+  color: var(--cmt-ink-700);
+  vertical-align: top;
+}
+.cmt-table--dense .cmt-table__td {
+  padding: var(--cmt-s2) var(--cmt-s4);
+}
+.cmt-table__td--strong {
+  font-weight: var(--cmt-fw-semibold);
+  color: var(--cmt-ink);
+}
+
+/* cell tones — the taxed / free / caution semantics */
+.cmt-table__td--pos {
+  color: #0a7f5b;
+  font-weight: var(--cmt-fw-semibold);
+  background: rgba(16, 185, 129, 0.08);
+}
+.cmt-table__td--neg {
+  color: #b3261e;
+  font-weight: var(--cmt-fw-semibold);
+  background: rgba(239, 68, 68, 0.08);
+}
+.cmt-table__td--warn {
+  color: #92600a;
+  font-weight: var(--cmt-fw-semibold);
+  background: rgba(245, 158, 11, 0.1);
+}
+.cmt-table__td--accent {
+  color: var(--cmt-indigo-700);
+  font-weight: var(--cmt-fw-semibold);
+  background: var(--cmt-accent-soft);
+}
+.cmt-table__td--muted {
+  color: var(--cmt-muted-2);
+}
+
+/* highlighted row — the one you're prosecuting */
+.cmt-table__row--hl {
+  background: var(--cmt-accent-soft);
+}
+.cmt-table__row--hl .cmt-table__td {
+  color: var(--cmt-ink);
+}
+
+/* band / section-divider row */
+.cmt-table__band td {
+  padding: var(--cmt-s4) var(--cmt-s4) var(--cmt-s2);
+  font-size: var(--cmt-fs-caption);
+  font-weight: var(--cmt-fw-bold);
+  text-transform: uppercase;
+  letter-spacing: var(--cmt-tracking-eyebrow);
+  color: var(--cmt-accent);
+}
+
+.cmt-table__caption {
+  margin-top: var(--cmt-s4);
+  font-size: var(--cmt-fs-small);
+  color: var(--cmt-muted);
+}

@@ -118,6 +118,8 @@ This week's nudges:
 
 **The pattern hiding in Band 3:** the tax code **keeps writing full-time students out of its savings incentives** — the Saver's Credit excludes them, the coming Saver's Match excludes them, the kiddie tax reaches them until 24, and the education I-Bond rule locks them out by age. Keep count tonight; it's a real design choice, not a coincidence.
 
+> **Local note — a campus job at UVU or BYU can't get you into the 403(b).** Both schools exclude student workers: UVU's plan (like the rest of the state system) carves out students and anyone under 20 hrs/week; BYU's voluntary 403(b) is open to *"non-student employees"* only, and its main retirement runs through the Church's DMBA, not a 403(b) at all. The upside is real, though: your student wages are **exempt from FICA (the Social Security + Medicare payroll tax) at 6+ credit hours** — an extra 7.65% in every check — *and* those wages still count as earned income, so you can open your **own Roth IRA** on that paycheck. (One neat link: being *let into* the plan would actually cost you the FICA break — a plan-eligible worker isn't a FICA-exempt "student" anymore, so the two rules hold hands.) *(UVU's own plan text isn't public — confirmed via the identical Utah State plan; worth a one-line check with UVU HR.)*
+
 #### The employer match — the only guaranteed return you'll ever be offered
 *Visual: bar chart — "your 5% deferral" next to "the match on top," annotated with the instant-return %. Keep this slide physically adjacent to the vesting slide — the return claim is only true once vested.*
 - Common formulas and what they actually pay ([typical rates: Vanguard *How America Saves 2026*](https://corporate.vanguard.com/content/corporatesite/us/en/corp/who-we-are/pressroom/press-release-vanguards-twenty-fifth-how-america-saves-reveals-quiet-retirement-revolution-061626.html), press-release figures):
@@ -154,15 +156,29 @@ This week's nudges:
 - **IRA contributions run to tax day of the *next* year** — you can fund a 2026 Roth IRA until **April 15, 2027**, no extensions ([§219(f)(3)](https://www.law.cornell.edu/uscode/text/26/219)). A late-discovered low-income year is still salvageable.
 - **401(k) deferrals die on December 31.** They come out of payroll; once your last paycheck is cut, that money is "available" and can't be deferred ([Treas. Reg. §1.401(k)-1](https://www.law.cornell.edu/cfr/text/26/1.401(k)-1)). No April grace period. The calendar itself is a rule.
 
-#### Getting money out early — the Roth escape hatch, and the penalty map
-*Visual: the Roth "layers" diagram (contributions → conversions → earnings) with only the top layer shaded "always withdrawable."*
-- **The single most underrated fact for a 20-year-old:** your Roth IRA **contributions** come out **first, tax-free and penalty-free, at any age, for any reason** ([Pub 590-B ordering rules](https://www.irs.gov/publications/p590b)). You already paid tax on them, so there's nothing to tax or penalize. **The Roth IRA is the only retirement account that doubles as an emergency fund.** *(The counterweight, said in the same breath: withdrawn contribution room never comes back — the annual limit is the only way back in.)*
-- **Earnings** are different — pull those before 59½ and you owe ordinary income **+ 10%**, unless an exception applies.
-- **The exceptions split by account type, and everyone gets this wrong** ([§72(t)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section72&num=0&edition=prelim)):
-    - **IRA only:** qualified higher-education expenses (penalty-free — *there is no such exception for a 401(k)*), first-time home ($10,000 lifetime), health insurance while unemployed.
-    - **Employer plan only:** the **Rule of 55** (separate from service at 55+ → penalty-free from *that* plan).
+#### Getting money out early — the penalty map, box by box
+*Visual: the Roth "layers" diagram (contributions → conversions → earnings, only the top layer shaded "always withdrawable"), next to the full account-comparison table below.*
+- **Start with the star. Your Roth IRA contributions come out first, tax-free and penalty-free, at any age, for any reason** ([Pub 590-B ordering rules](https://www.irs.gov/publications/p590b)). You already paid tax on them, so there's nothing to tax or penalize. **The Roth IRA is the only retirement account that doubles as an emergency fund.** *(The counterweight, said in the same breath: withdrawn contribution room never comes back — the annual limit is the only way back in.)*
+- **Everywhere else, "early" (before 59½) has a price.** The default is **ordinary income tax + a 10% penalty** on whatever is taxable ([§72(t)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section72&num=0&edition=prelim)) — but the exact bite differs sharply by box, and two of them are nothing like the others:
+
+| Box (pulled before 59½) | Income tax on the withdrawal | Penalty | The thing to know |
+|---|---|---|---|
+| **Roth IRA — contributions** | none | **none** | Out anytime, any reason — the escape hatch |
+| **Roth IRA — earnings** | ordinary income | 10% | Free only once you're 59½ **and** past the 5-year clock |
+| **Traditional IRA** | ordinary income (all of it) | 10% | But it owns the best exceptions (below) |
+| **Pre-tax 401(k) / 403(b)** | ordinary income (all of it) | 10% | **No** college or first-home exception — those are IRA-only |
+| **Roth 401(k)** | ordinary income on the earnings slice | 10% on that slice | **Not** contributions-first like a Roth IRA — each withdrawal is pro-rata, so you can't cleanly pull just your own money |
+| **Governmental 457(b)** | ordinary income | **NONE, ever** | The one retirement plan with no early-withdrawal penalty — but money *rolled in* from a 401(k)/IRA keeps the 10% ([§72(t)(9)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section72&num=0&edition=prelim)) |
+| **HSA — non-medical** | ordinary income | **20%** | *Double* the usual penalty — but medical withdrawals are always free, and the penalty vanishes at 65 |
+| **529 — non-qualified** | ordinary income on **earnings only** | 10% on **earnings only** | Your principal always comes back clean; the bite is only on growth |
+| **Taxable brokerage** | capital-gains tax on gains | none | No penalty ever — it was never locked; this is the freedom you pay for with no tax break |
+
+- **The two outliers are worth saying out loud.** A **governmental 457(b)** (state/city/public-university jobs) lets you tap contributions penalty-free the moment you separate, at *any* age — genuinely unusual. An **HSA** does the opposite: pull it for something non-medical before 65 and the penalty is **20%, not 10%** — the harshest early-exit on the whole board.
+- **The exception list also splits by account type, and everyone gets this wrong** ([§72(t)(2)](https://uscode.house.gov/view.xhtml?req=granuleid:USC-prelim-title26-section72&num=0&edition=prelim)):
+    - **IRA only:** qualified higher-education expenses (*there is no such exception for a 401(k)*), first-time home ($10,000 lifetime), health insurance while unemployed.
+    - **Employer plan only:** the **Rule of 55** — separate from service in the year you turn 55+ and that plan's money is penalty-free (IRAs don't get this).
     - **Both:** disability, death, birth/adoption ($5,000), a $1,000/yr emergency, terminal illness, disaster ($22,000).
-- Practical takeaway: money you might need for grad school is better in an **IRA** than a 401(k) — the education exception is IRA-only.
+- **Two practical takeaways from the split:** money you might need for grad school is better in an **IRA** than a 401(k) (the education exception is IRA-only); and if you leave a job at 55+, *don't* roll that 401(k) to an IRA first — you'd forfeit the Rule of 55 on it.
 
 #### Rollovers — the 20% trap
 *Visual: two paths from "old 401(k)" — a clean "direct transfer" arrow vs. an "indirect / check to you" arrow bleeding 20% to withholding.*
@@ -252,7 +268,7 @@ This week's nudges:
 
 #### Run it through the grid — does "tax-advantaged" survive contact with Level 1?
 *Visual: append the Trump Account as a new row on Level 1's three-moment grid, and let the room fill in the cells before revealing them.*
-- Score it on the three moments. It's a Traditional IRA under the hood, but with a twist: **no deduction going IN** ([§530A confirms no §219 deduction](https://www.irs.gov/pub/irs-drop/n-25-68.pdf)) — so it's after-tax dollars in — and **everything OUT is ordinary income**, including the growth. So it **switches off the growth-stage tax but upgrades the exit rate from capital-gains to ordinary income.** For a long-term index holding, that trade can *lose*.
+- Score it on the three moments. It's a Traditional IRA under the hood, but with a twist: **no deduction going IN** ([§530A confirms no §219 deduction](https://www.irs.gov/pub/irs-drop/n-25-68.pdf)) — so it's after-tax dollars in — and the **growth and the free money come out as ordinary income** (your family's own contributions come back tax-free — the exact split is below). So it **switches off the growth-stage tax but upgrades the exit rate from capital-gains to ordinary income.** For a long-term index holding, that trade can *lose*.
 - **Cato's numbers make it concrete** — same $5,000 of pre-tax income, 7% for 30 years, after-tax value at the end ([Cato PA 1019](https://www.cato.org/policy-analysis/improving-trump-accounts)):
 
 | Box | After-tax value at year 30 |
@@ -264,6 +280,16 @@ This week's nudges:
 
 - Read the bottom two rows: the Trump Account ends up **~$2,451 *behind* a plain taxable brokerage account** — because a taxable account keeps the 15% capital-gains rate at the end, while the Trump Account converts those same gains to ordinary income. **An account marketed as tax-advantaged that, for a buy-and-hold saver, trails the un-advantaged option.** *(Honest caveat: this ignores the free $1,000 seed and employer money — real dollars a taxable account never gets — and flips positive for a saver who ends up in a low bracket. It's the pessimistic case, not the only case.)*
 - **The transferable lesson — the whole point of the segment:** "tax-advantaged" is a **claim on a label, not a fact.** You now own the tool to check it yourself: run any account through the three moments.
+
+#### After 18: exactly how a withdrawal is taxed
+*Visual: one withdrawal split into two slices — a tax-free "return of family contributions" slice and a taxable "seed + growth" slice — with a 10%-penalty stamp on the taxable slice for early (pre-59½) withdrawals.*
+- At 18 the growth period ends and the account **becomes a plain Traditional IRA** — §408 rules apply for contributions, distributions, RMDs, and taxation ([Notice 2025-68](https://www.irs.gov/pub/irs-drop/n-25-68.pdf)). Every dollar in it is one of two kinds:
+    - **Basis — comes out tax-free:** the money **your family contributed** (it was after-tax going in, since there was no deduction).
+    - **No basis — comes out as ordinary income:** the **$1,000 federal seed**, any **employer contributions**, and **all investment growth**.
+- **Withdrawals are pro-rata, not basis-first.** Unlike a Roth IRA (contributions come out first), each Trump-Account withdrawal is split by the ratio of basis to total value — you can't cherry-pick the tax-free dollars ([§408(d)(2), applied to this account alone](https://www.irs.gov/pub/irs-drop/n-25-68.pdf)).
+- **Worked example.** Say at 18 the account holds **$50,000**: $20,000 the family put in (basis) + a $1,000 seed + $29,000 of growth (= $30,000 non-basis). Basis fraction = $20,000 ÷ $50,000 = **40%**. Withdraw $10,000 → **$4,000 is tax-free**, **$6,000 is ordinary income.**
+- **Before age 59½, add the 10% early-withdrawal penalty** on the taxable slice — $600 on that $6,000 — *unless* a Traditional-IRA exception applies (qualified higher education, first home up to $10,000, disability, etc.). So the honest headline is: **"ordinary income, and often ordinary income + 10%."** Wait until 59½ and only the ordinary-income tax remains.
+- **The catch that makes it sting:** the seed and growth are exactly the "free money" the account is sold on — and that's the portion taxed at *ordinary* rates. Hold the same index fund in a plain brokerage account and that growth is taxed at *lower* capital-gains rates instead. That rate difference is the whole of Cato's result below.
 
 #### The three debates
 *Visual: three-panel "argument card," one tension per panel.*

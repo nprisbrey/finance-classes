@@ -17,6 +17,8 @@ export * from "./slides/StatCallout";
 export * from "./slides/Compare";
 export * from "./slides/Table";
 export * from "./slides/MoneyMap";
+export * from "./slides/Tranches";
+export * from "./slides/Timeline";
 export * from "./slides/Quote";
 export * from "./slides/MarketMoment";
 export * from "./slides/Discussion";

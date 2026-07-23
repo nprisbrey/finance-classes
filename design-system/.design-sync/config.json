@@ -17,6 +17,8 @@
     "Compare": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "TwoColumns" },
     "Table": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "MasterTable" },
     "MoneyMap": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Week4" },
+    "Tranches": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Normal" },
+    "Timeline": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "September2008" },
     "Quote": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Ink" },
     "MarketMoment": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Moodys" },
     "Discussion": { "cardMode": "single", "viewport": "1280x720", "primaryStory": "Questions" },
